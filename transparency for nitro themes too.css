@@ -1,9 +1,3 @@
-/*You can set your preferred bacground opacity here!*/
-
-:root{
-    --var-opacity-option:0.6;      /*background opacity*/
-}
-
 
 
 /* MICA */
@@ -53,7 +47,7 @@ body::before {
     background: rgba(0, 0, 0, 0.6)!important;
 }
 
-.theme-light .scroller_f0f183 {
+.theme-light .scroller_f0f183, .privateChannels__93473 .scroller__4b984 {
     background: rgba(255, 255, 255, 0.5)!important;
 }
 .theme-dark .scroller_f0f183 {
@@ -123,6 +117,9 @@ body::before {
 .theme-dark .searchBar_e4ea2a {
     background: rgba(0, 0, 0, 0.6)!important;
 }
+.theme-light .searchBar_e4ea2a {
+    background: rgba(255, 255, 255, 0.8)!important;
+}
 
 .members__9f47b {
     background: transparent;}
@@ -131,9 +128,6 @@ body::before {
 
 
 
-.form__13a2c {
-    height: 53px;
-}
 
 
 .theme-dark .children__32014:after{
@@ -143,3 +137,9 @@ body::before {
 .theme-dark .form__13a2c:before {
     background: transparent;
 }
+
+
+
+
+
+.container_d667ff {background: transparent!important;}
