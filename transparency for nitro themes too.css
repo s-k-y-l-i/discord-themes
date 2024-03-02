@@ -1,0 +1,145 @@
+/*You can set your preferred bacground opacity here!*/
+
+:root{
+    --var-opacity-option:0.6;      /*background opacity*/
+}
+
+
+
+/* MICA */
+body, #app-mount,
+.typeWindows__5fa63,
+.app_de4237,.bg__12180,
+.guilds__2b93a,.scroller__3d071 {
+        background: transparent !important;
+}
+
+/* Darker transparency background*/
+
+body {
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-overlay-app-frame,var(--background-tertiary));
+    opacity: var(--var-opacity-option); /* Átlátszóság beállítása (0-től 1-ig terjedő értékek) */
+    z-index: -1; /* Az átlátszó háttér mögé helyezése */
+}
+
+.sidebar_ded4b5 {
+    background: transparent
+
+}
+
+
+
+.theme-light .container__590e2 {
+    background: transparent
+}
+
+.theme-light .header__104ca {
+    background: rgba(255, 255, 255, 0.8)!important;
+}
+.theme-dark .container__590e2 {
+    background: transparent!important;
+}
+.theme-dark .header__104ca {
+    background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.theme-light .scroller_f0f183 {
+    background: rgba(255, 255, 255, 0.5)!important;
+}
+.theme-dark .scroller_f0f183 {
+    background: rgba(0, 0, 0, 0.7)!important;
+}
+
+.panels__58331, .container_ca50b9, .panel_bd8c76.activityPanel__22355 {
+    background: transparent!important;
+}
+.theme-light .panels__58331 {
+    background: rgba(255, 255, 255, 0.7)!important;
+}
+.theme-dark .panels__58331 {
+    background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.chat__52833{
+    background: transparent;
+}
+
+.theme-light .themed_b152d4 /*TITLE*/{
+    background: rgba(255, 255, 255, 0.8)!important;
+}
+.theme-dark .themed_b152d4 /*TITLE*/{
+    background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.chatContent__5dca8{
+    background: transparent!important
+}
+
+.theme-light .scroller__1f96e{
+    background: rgba(255, 255, 255, 0.8)!important;
+}
+.theme-dark .scroller__1f96e{
+    background: rgba(0, 0, 0, 0.8)!important;
+}
+.theme-light .channelTextArea__2e60f/*Üzenetírás*/{
+    background: rgba(255, 255, 255, 0.7)!important;
+}
+.theme-dark .channelTextArea__2e60f/*Üzenetírás*/{
+    background: rgba(0, 0, 0, 0.6)!important;
+}
+.channelTextArea__2e60f {
+    background-color: transparent;
+}
+.themedBackground__6b1b6/*Üzenetírás*/ {
+    background: transparent!important;
+}
+
+.theme-light .container_b2ce9c {
+    background: rgba(255, 255, 255, 0.5)!important;
+}
+.theme-dark .container_b2ce9c {
+    background: rgba(0, 0, 0, 0.6)!important;
+}
+.member_b44d5d {
+    background:transparent!important;
+}
+
+.privateChannels__93473{
+    background: transparent!important;
+}
+.theme-dark .scroller__4b984 {
+    background: rgba(0, 0, 0, 0.7)!important;
+}
+.theme-dark .searchBar_e4ea2a {
+    background: rgba(0, 0, 0, 0.6)!important;
+}
+
+.members__9f47b {
+    background: transparent;}
+
+
+
+
+
+.form__13a2c {
+    height: 53px;
+}
+
+
+.theme-dark .children__32014:after{
+    display: none;
+}
+
+.theme-dark .form__13a2c:before {
+    background: transparent;
+}
