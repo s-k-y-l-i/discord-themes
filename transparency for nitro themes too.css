@@ -1,3 +1,8 @@
+/*You can set your preferred bacground opacity here!*/
+
+:root{
+    --var-opacity-option:0.6;      /*background opacity*/
+}
 
 
 /* MICA */
