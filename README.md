@@ -10,5 +10,5 @@
 ## Transparent Theme:
 
 - Ensure you have Vesktop installed with transparency options enabled. Get it [here](https://github.com/Vencord/Vesktop/releases).
-- For an enhanced experience, it's recommended to use Mica for Everyone, available [here](https://github.com/MicaForEveryone/MicaForEveryone/releases).
-- If using multiple themes, place this one last.
+- For even better experience, I recommend to use Mica for Everyone, available [here](https://github.com/MicaForEveryone/MicaForEveryone/releases).
+- If using multiple themes, **__place this one last__**.
