@@ -5,7 +5,7 @@
 - Add the following URLs to [ Options ] > [ Themes ] > [ Online Themes ]:
 
 ```
-https://raw.githubusercontent.com/skyli91/discord-themes/68fd31264433eb6a78604128c98bbda6b333e31a/responsive%20and%20simple.css
+https://raw.githubusercontent.com/skyli91/discord-themes/main/responsive%20and%20simple.css
 https://raw.githubusercontent.com/skyli91/discord-themes/main/transparency%20for%20nitro%20themes%20too.css
 ```
 
