@@ -1,6 +1,6 @@
 # Installation Guide
 
-## How to install:
+## Simple install:
 
 - Add the following URLs to [ Options ] > [ Themes ] > [ Online Themes ]:
 
