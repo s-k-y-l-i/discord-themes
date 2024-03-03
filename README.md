@@ -12,8 +12,8 @@ https://raw.githubusercontent.com/skyli91/discord-themes/main/smooth-harmony-res
 https://raw.githubusercontent.com/skyli91/discord-themes/main/acrylic-harmony-fully-transparent.css
 https://raw.githubusercontent.com/skyli91/discord-themes/main/acrylic-harmony-transparent-frame.css
 ```
-#### For Acrlyic themes:
- - Enable transparency in the Discord options! 
+#### Enabling transparency:
+ - Enable transparency in [ Vesktop Settings ] > [ Transparency Options ] or [ Vencord ] > [ Enable Window transparency. ]
  - For even better experience, I recommend to also use Mica for Everyone, available [here](https://github.com/MicaForEveryone/MicaForEveryone/releases).
  - If using multiple themes, <u>**place Acrylic theme for last**</u>!
 
@@ -42,7 +42,7 @@ https://github.com/skyli91/discord-themes/assets/7442913/a400687c-6bcc-42ca-bc14
 ![image](https://github.com/skyli91/discord-themes/assets/7442913/cb7faaea-5cdd-4671-854b-cecdd743b160)
 ![image](https://github.com/skyli91/discord-themes/assets/7442913/7c671e4f-76c1-44cb-b645-f521a15792be)
 
-<br>
+<br><br><br><br><br>
 
 ### Did my theme brighten your day? You can also brighten mine with a virtual Ice Cream:
 
