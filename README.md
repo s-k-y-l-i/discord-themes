@@ -29,7 +29,7 @@ A Discord theme to remove the clutter and make it able to responsively resize to
 ### If my work brought you joy, you can give me a touch of sweetness by:
 <div align="center">
 <a href="https://www.buymeacoffee.com/skyli">
-  <img src="https://img.buymeacoffee.com/button-api/?text=Treating me to an Ice Cream&emoji=🍧&slug=skyli&button_colour=FFC0CB&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" />
+  <img src="https://img.buymeacoffee.com/button-api/?text=Treating me to an Ice Cream&emoji=🍧&slug=skyli&button_colour=FFB1BB&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" />
 </a>
 </div>
 
@@ -49,7 +49,7 @@ https://github.com/skyli91/discord-themes/assets/7442913/a400687c-6bcc-42ca-bc14
 ### Did my theme brighten your day? You can also brighten mine with a virtual Ice Cream:
 
 <a href="https://www.buymeacoffee.com/skyli">
-  <img src="https://img.buymeacoffee.com/button-api/?text=Buy me an Ice Cream&emoji=🍧&slug=skyli&button_colour=FFC0CB&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" />
+  <img src="https://img.buymeacoffee.com/button-api/?text=Buy me an Ice Cream&emoji=🍧&slug=skyli&button_colour=FFB1BB&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" />
 </a>
 
 <br><br>
