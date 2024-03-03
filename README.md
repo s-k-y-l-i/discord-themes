@@ -5,7 +5,7 @@
 ## Simple install:
 
 - Use [Vesktop](https://github.com/Vencord/Vesktop/releases)(It's faster) or [Vencord](https://vencord.dev/download/)
-- Add the theme URLs to [ Options ] > [ Themes ] > [ Online Themes ]:
+- Add the theme URLs to **[ Options ] > [ Themes ] > [ Online Themes ]**:
 
 ```
 https://raw.githubusercontent.com/skyli91/discord-themes/main/smooth-harmony-responsive.css
@@ -13,7 +13,7 @@ https://raw.githubusercontent.com/skyli91/discord-themes/main/acrylic-harmony-fu
 https://raw.githubusercontent.com/skyli91/discord-themes/main/acrylic-harmony-transparent-frame.css
 ```
 #### Enabling transparency:
- - Enable transparency in [ Vesktop Settings ] > [ Transparency Options ] or [ Vencord ] > [ Enable Window transparency. ]
+ - Enable transparency in **[ Vesktop Settings ] > [ Transparency Options ]** or **[ Vencord ] > [ Enable Window transparency. ]**
  - For even better experience, I recommend to also use Mica for Everyone, available [here](https://github.com/MicaForEveryone/MicaForEveryone/releases).
  - If using multiple themes, <u>**place Acrylic theme for last**</u>!
 
