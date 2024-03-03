@@ -1,8 +1,12 @@
-/*You can set your preferred bacground opacity here!*/
-
 :root{
-    --var-opacity-option:0.6;      /*background opacity*/
+    --var-opacity-option:0.07;      /* Acrylic opacity from 0 to 1 */
+    --var-color-saturation:9999;     /* 0 to 999 where 1 is the original */
+
+    /* Values to try: 0.1 opacity with 99 saturation
+    0.6 opacity with 1.8 saturation*/
+
 }
+
 
 
 /* MICA */
@@ -29,4 +33,5 @@ body::before {
     background: var(--bg-overlay-app-frame,var(--background-tertiary));
     opacity: var(--var-opacity-option); /* Átlátszóság beállítása (0-től 1-ig terjedő értékek) */
     z-index: -1; /* Az átlátszó háttér mögé helyezése */
+    filter: saturate(var(--var-color-saturation));
 }
