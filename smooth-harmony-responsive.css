@@ -6,7 +6,23 @@
     background: transparent!important;
     margin-top: 0px;
 }
+.theme-light .header__104ca {
+    border-top-left-radius: 8px!important;
+}
+.theme-dark .header__104ca {
+    border-top-left-radius: 8px!important;
+}
+nav.container__590e2 {
+    border-top-left-radius: 8px;
+}
 
+
+.theme-dark .searchBar_e4ea2a {
+    border-top-left-radius: 8px!important;
+}
+.theme-light .searchBar_e4ea2a {
+    border-top-left-radius: 8px!important;
+}
 
 
 
@@ -577,3 +593,6 @@ div > [href="/store"], div > [href="/shop"]/* Nitro Button above DM List */ {
 .container_ca50b9 {
     height: 52px;}
 
+
+
+.divider_c09b64 {display: none;}
