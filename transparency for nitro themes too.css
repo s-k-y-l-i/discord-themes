@@ -4,6 +4,11 @@
     --var-opacity-option:0.6;      /*background opacity*/
 }
 
+:root{
+    --var-opacity-option:0.6;      /*background opacity*/
+}
+
+
 
 /* MICA */
 body, #app-mount,
@@ -44,16 +49,18 @@ body::before {
 
 .theme-light .header__104ca {
     background: rgba(255, 255, 255, 0.8)!important;
+    border-top-left-radius: 8px;
 }
 .theme-dark .container__590e2 {
     background: transparent!important;
 }
 .theme-dark .header__104ca {
     background: rgba(0, 0, 0, 0.6)!important;
+    border-top-left-radius: 8px;
 }
 
 .theme-light .scroller_f0f183, .privateChannels__93473 .scroller__4b984 {
-    background: rgba(255, 255, 255, 0.5)!important;
+    background: rgba(255, 255, 255, 0.6)!important;
 }
 .theme-dark .scroller_f0f183 {
     background: rgba(0, 0, 0, 0.7)!important;
@@ -104,10 +111,10 @@ body::before {
 }
 
 .theme-light .container_b2ce9c {
-    background: rgba(255, 255, 255, 0.5)!important;
+    background: rgba(255, 255, 255, 0.6)!important;
 }
 .theme-dark .container_b2ce9c {
-    background: rgba(0, 0, 0, 0.6)!important;
+    background: rgba(0, 0, 0, 0.7)!important;
 }
 .member_b44d5d {
     background:transparent!important;
@@ -121,9 +128,11 @@ body::before {
 }
 .theme-dark .searchBar_e4ea2a {
     background: rgba(0, 0, 0, 0.6)!important;
+    border-top-left-radius: 8px;
 }
 .theme-light .searchBar_e4ea2a {
     background: rgba(255, 255, 255, 0.8)!important;
+    border-top-left-radius: 8px;
 }
 
 .members__9f47b {
@@ -148,3 +157,76 @@ body::before {
 
 
 .container_d667ff {background: transparent!important;}
+
+
+
+
+.form__13a2c {
+margin-top: 0px;
+}
+
+
+.theme-light .form__13a2c {
+    background: rgba(255, 255, 255, 0.8);
+}
+.theme-dark .form__13a2c {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.theme-light .searchResultsWrap__9f374 {
+    background: rgba(255, 255, 255, 0.5);
+}
+.searchHeader__19d87{
+    background: rgba(255, 255, 255, 0.35);
+    margin-top: 1px!important;
+}
+
+.searchResult_dcd237 {
+    background: rgba(255, 255, 255, 0.7);
+}
+.container__5c7e7 {
+    background: transparent;
+}
+.tabBody_b3d268{
+        background: rgba(255, 255, 255, 0.8);
+}
+
+.wrapper_bd2abe.minimum_ebf000{
+    background-color: transparent!important;
+}
+
+
+
+
+#vc-spotify-player {
+    background: transparent!important;
+}
+
+
+
+
+@media only screen and (max-width: 638px)  {
+
+.theme-dark nav.container__590e2 {
+background: transparent!important;}
+.theme-light nav.container__590e2 {
+background: transparent!important;}
+.theme-light .header__104ca {
+    background: rgba(255, 255, 255, 0.8)!important;}
+.theme-dark .header__104ca {
+    background: rgba(0, 0, 0, 0.6)!important;}
+
+.theme-light .scroller_f0f183{
+    background: rgba(255, 255, 255, 0.6)!important;
+}
+
+
+.theme-light .sidebar_ded4b5:hover nav.container__590e2 {
+background: rgba(255, 255, 255, 0)!important;}
+.theme-light .sidebar_ded4b5:hover .scroller_f0f183 {
+background: rgba(255, 255, 255, 0.6)!important;}
+
+
+}
