@@ -15,7 +15,7 @@ For Acrlyic themes:
  - For even better experience, I recommend to also use Mica for Everyone, available [here](https://github.com/MicaForEveryone/MicaForEveryone/releases).
  - If using multiple themes, <u>**place Acrylic theme for last**</u>!
 
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="skyli" data-description="Support me on Buy me a coffee!" data-message="Thanks for using my work. If you want to say thanks, you can!" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+<a href="https://www.buymeacoffee.com/skyli"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me an Icecream&emoji=🍧&slug=skyli&button_colour=BD5FFF&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 ![image](https://github.com/skyli91/discord-themes/assets/7442913/5ee12b75-17a3-4185-8939-c2aa799280d6)
 ![image](https://github.com/skyli91/discord-themes/assets/7442913/cb7faaea-5cdd-4671-854b-cecdd743b160)
