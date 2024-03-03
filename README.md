@@ -21,12 +21,7 @@ For Acrlyic themes:
   <img src="https://img.buymeacoffee.com/button-api/?text=Treating me to an Ice Cream&emoji=🍧&slug=skyli&button_colour=FFC0CB&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" />
 </a>
 
-<br><br>
-
-![image](https://github.com/skyli91/discord-themes/assets/7442913/5ee12b75-17a3-4185-8939-c2aa799280d6)
-![image](https://github.com/skyli91/discord-themes/assets/7442913/cb7faaea-5cdd-4671-854b-cecdd743b160)
-![image](https://github.com/skyli91/discord-themes/assets/7442913/7c671e4f-76c1-44cb-b645-f521a15792be)
-![image](https://github.com/skyli91/discord-themes/assets/7442913/995cdf99-67fc-42c6-8a04-c85e9a2e69fb)
+<br>
 
 ## Acrylic Harmony Fully Transparent
 
@@ -39,6 +34,15 @@ Transparency on titlebar and server sidebar only.
 ## Smooth Harmony
 
 A Discord theme to remove the clutter and make it able to responsively resize to smaller sizes. It's also working with all the colorful Discord Nitro themes, including dark and light themes. It's pleasant to the eyes and easy to use.
+
+### Images
+
+![image](https://github.com/skyli91/discord-themes/assets/7442913/5ee12b75-17a3-4185-8939-c2aa799280d6)
+![image](https://github.com/skyli91/discord-themes/assets/7442913/cb7faaea-5cdd-4671-854b-cecdd743b160)
+![image](https://github.com/skyli91/discord-themes/assets/7442913/7c671e4f-76c1-44cb-b645-f521a15792be)
+![image](https://github.com/skyli91/discord-themes/assets/7442913/995cdf99-67fc-42c6-8a04-c85e9a2e69fb)
+
+
 
 
 
