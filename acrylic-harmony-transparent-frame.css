@@ -1,10 +1,12 @@
 :root{
-    --var-opacity-option:0.07;      /* Acrylic opacity from 0 to 1 */
-    --var-color-saturation:9999;     /* 0 to 999 where 1 is the original */
+    --var-opacity-option:0.4;    /*   Acrylic opacity from 0 to 1    */
+    --var-color-saturation:2.8; /* 0 to 999 where 1 is the default */
 
-    /* Values to try: 0.1 opacity with 99 saturation
-    0.6 opacity with 1.8 saturation*/
-
+    /* 
+    You can try: 
+    0.1 opacity with 99 saturation
+    0.4 opacity with 2.8 saturation
+    0.6 opacity with 1.8 saturation            */
 }
 
 
