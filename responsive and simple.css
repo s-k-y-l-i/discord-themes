@@ -1,3 +1,26 @@
+.theme-light .form__13a2c {
+    background: transparent!important;
+    margin-top: 0px;
+}
+.theme-dark .form__13a2c {
+    background: transparent!important;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+.typingDots_d92d42 {
+    margin-left: 47px;
+    margin-bottom: 13px;
+}
+
+
+
+
+
 
 .container_d667ff {
     border-bottom: 0px;
@@ -30,7 +53,7 @@
 }
 
 .messagesWrapper_ea2b0b.group-spacing-16 {
-    margin-bottom: 8px;
+   
 }
 
 
@@ -298,6 +321,27 @@ h3.membersGroup__85843.container_de798d {
 /* Médialekérdezések 638 pixel szélesség alatt */
 @media only screen and (max-width: 638px)  {
 
+
+
+
+
+
+.platform-win .sidebar_ded4b5 {
+    overflow: visible;
+    z-index: 999;
+}
+.topic__16ae3 {display:none;}
+.name_c08dbc {
+    overflow: visible;}
+
+.titleWrapper__482dc h1 {
+    display: none;
+}
+.titleWrapper__482dc .cursorPointer__5116a {
+    display: block!important;
+}
+
+
 .actions__9256d{
     visibility: hidden;
 }
@@ -462,9 +506,6 @@ background: var(--bg-overlay-2,var(--background-secondary))!important;}
     padding-top: 4px;
     padding-bottom: 5px;
 }
-.theme-dark .sansAttachButton__996a4 {
-    margin-top: -1px;
-}
 
 .channelTextArea__2e60f {
     margin-bottom: 0px;
@@ -528,5 +569,11 @@ div > [href="/store"], div > [href="/shop"]/* Nitro Button above DM List */ {
 
 
 .form__13a2c {
-    height: 53px;
+    /*height: 53px;*/
 }
+.divider_b9338f {
+    display: none;
+}
+.container_ca50b9 {
+    height: 52px;}
+
