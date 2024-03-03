@@ -39,7 +39,11 @@ A Discord theme to remove the clutter and make it able to responsively resize to
 
 ### Media
 
-https://github.com/skyli91/discord-themes/assets/7442913/b083ce94-0b4d-47f9-b601-f2db679d0f91
+
+
+https://github.com/skyli91/discord-themes/assets/7442913/6139dd31-4914-4cb0-a0a3-5a605e4885af
+
+
 
 ![image](https://github.com/skyli91/discord-themes/assets/7442913/995cdf99-67fc-42c6-8a04-c85e9a2e69fb)
 ![image](https://github.com/skyli91/discord-themes/assets/7442913/5ee12b75-17a3-4185-8939-c2aa799280d6)
