@@ -26,10 +26,10 @@ Transparency on titlebar and server sidebar only.
 #### Smooth Harmony
 A Discord theme to remove the clutter and make it able to responsively resize to smaller sizes. It's also working with all the colorful Discord Nitro themes, including dark and light themes. It's pleasant to the eyes and easy to use.
 
-### If my work brought you joy, you can give me a touch of sweetness by:
+### If my work brought you joy, you can give me a touch of sweetness:
 <div align="center">
 <a href="https://www.buymeacoffee.com/skyli">
-  <img src="https://img.buymeacoffee.com/button-api/?text=Treating me to an Ice Cream&emoji=🍧&slug=skyli&button_colour=FFB1BB&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" />
+  <img src="https://img.buymeacoffee.com/button-api/?text=Buy me an Ice Cream&emoji=🍧&slug=skyli&button_colour=FFB1BB&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" />
 </a>
 </div>
 
