@@ -4,11 +4,6 @@
     --var-opacity-option:0.6;      /*background opacity*/
 }
 
-:root{
-    --var-opacity-option:0.6;      /*background opacity*/
-}
-
-
 
 /* MICA */
 body, #app-mount,
