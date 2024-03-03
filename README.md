@@ -6,9 +6,9 @@
 - Add the theme URLs to [ Options ] > [ Themes ] > [ Online Themes ]:
 
 ```
-https://raw.githubusercontent.com/skyli91/discord-themes/main/smooth%20harmony%20-%20responsive.css
-https://raw.githubusercontent.com/skyli91/discord-themes/main/acrylic%20harmony%20-%20fully%20transparent.css
-https://raw.githubusercontent.com/skyli91/discord-themes/main/acrylic%20harmony%20-%20transparent%20frame.css
+https://raw.githubusercontent.com/skyli91/discord-themes/main/smooth-harmony-responsive.css
+https://raw.githubusercontent.com/skyli91/discord-themes/main/acrylic-harmony-fully-transparent.css
+https://raw.githubusercontent.com/skyli91/discord-themes/main/acrylic-harmony-transparent-frame.css
 ```
 For Acrlyic themes:
  - Enable transparency in the Discord options! 
