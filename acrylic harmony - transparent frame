@@ -1,0 +1,32 @@
+/*You can set your preferred bacground opacity here!*/
+
+:root{
+    --var-opacity-option:0.6;      /*background opacity*/
+}
+
+
+/* MICA */
+body, #app-mount,
+.typeWindows__5fa63,
+.app_de4237,.bg__12180,
+.guilds__2b93a,.scroller__3d071 {
+        background: transparent !important;
+}
+
+/* Darker transparency background*/
+
+body {
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-overlay-app-frame,var(--background-tertiary));
+    opacity: var(--var-opacity-option); /* Átlátszóság beállítása (0-től 1-ig terjedő értékek) */
+    z-index: -1; /* Az átlátszó háttér mögé helyezése */
+}
