@@ -15,14 +15,13 @@ For Acrlyic themes:
  - For even better experience, I recommend to also use Mica for Everyone, available [here](https://github.com/MicaForEveryone/MicaForEveryone/releases).
  - If using multiple themes, <u>**place Acrylic theme for last**</u>!
 
-### If my work brought you joy, 
-### you can give me a touch of sweetness by:
+### If my work brought you joy, you can give me a touch of sweetness by:
 
 <a href="https://www.buymeacoffee.com/skyli">
   <img src="https://img.buymeacoffee.com/button-api/?text=Treating me to an Ice Cream&emoji=🍧&slug=skyli&button_colour=FFC0CB&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" />
 </a>
 
-<br>
+<br><br>
 
 ![image](https://github.com/skyli91/discord-themes/assets/7442913/5ee12b75-17a3-4185-8939-c2aa799280d6)
 ![image](https://github.com/skyli91/discord-themes/assets/7442913/cb7faaea-5cdd-4671-854b-cecdd743b160)
