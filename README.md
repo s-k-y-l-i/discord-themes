@@ -15,9 +15,10 @@ For Acrlyic themes:
  - For even better experience, I recommend to also use Mica for Everyone, available [here](https://github.com/MicaForEveryone/MicaForEveryone/releases).
  - If using multiple themes, <u>**place Acrylic theme for last**</u>!
 
-If my work brought a smile to your face, you can give me a touch of sweetness by
+### If my work brought a smile to your face, you can give me a touch of sweetness by:
+
 <a href="https://www.buymeacoffee.com/skyli">
-  <img src="https://img.buymeacoffee.com/button-api/?text=Treat me to an Ice Cream&emoji=🍧&slug=skyli&button_colour=FFC0CB&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" />
+  <img src="https://img.buymeacoffee.com/button-api/?text=Treating me to an Ice Cream&emoji=🍧&slug=skyli&button_colour=FFC0CB&font_colour=ffffff&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00" />
 </a>
 
 
