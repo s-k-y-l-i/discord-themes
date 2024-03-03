@@ -1,5 +1,4 @@
 <br>
-
 # Acrylic Harmony and Smooth Responsive Themes 
 
 ## Simple install:
