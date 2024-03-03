@@ -40,10 +40,10 @@ https://github.com/skyli91/discord-themes/assets/7442913/a400687c-6bcc-42ca-bc14
 
 <div align="center">
 
-![image](https://github.com/skyli91/discord-themes/assets/7442913/995cdf99-67fc-42c6-8a04-c85e9a2e69fb)
-![image](https://github.com/skyli91/discord-themes/assets/7442913/5ee12b75-17a3-4185-8939-c2aa799280d6)
+![image](https://github.com/s-k-y-l-i/discord-themes/assets/7442913/87a160be-04e7-442a-819b-ede76075318d)
 ![image](https://github.com/skyli91/discord-themes/assets/7442913/cb7faaea-5cdd-4671-854b-cecdd743b160)
-![image](https://github.com/skyli91/discord-themes/assets/7442913/7c671e4f-76c1-44cb-b645-f521a15792be)
+![image](https://github.com/s-k-y-l-i/discord-themes/assets/7442913/e1a0bc3e-c9d5-470e-adbd-f9f393f4951c)
+
 
 <br><br><br><br><br>
 
@@ -58,4 +58,3 @@ https://github.com/skyli91/discord-themes/assets/7442913/a400687c-6bcc-42ca-bc14
 Your support is greatly appreciated! 🌟
 </div>
 <br><br><br>
-
