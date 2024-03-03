@@ -13,7 +13,8 @@ https://raw.githubusercontent.com/s-k-y-l-i/discord-themes/main/acrylic-harmony-
 https://raw.githubusercontent.com/s-k-y-l-i/discord-themes/main/acrylic-harmony-transparent-frame.css
 ```
 #### Enabling transparency:
- - Enable transparency in **[ Vesktop Settings ] > [ Transparency Options ]** or **[ Vencord ] > [ Enable Window transparency. ]**
+ - Enable transparency in **[ Vesktop Settings ] > [ Transparency Options ]** <br>
+   or **[ Vencord ] > [ Enable Window transparency ]**
  - For even better experience, I recommend to also use Mica for Everyone, available [here](https://github.com/MicaForEveryone/MicaForEveryone/releases).
  - If using multiple themes, <u>**place Acrylic theme for last**</u>!
 
