@@ -40,9 +40,12 @@ https://github.com/skyli91/discord-themes/assets/7442913/a400687c-6bcc-42ca-bc14
 
 <div align="center">
 
+![image](https://github.com/s-k-y-l-i/discord-themes/assets/7442913/d9044f6c-f952-40fb-8a6b-6d2168170a78)
 ![image](https://github.com/s-k-y-l-i/discord-themes/assets/7442913/87a160be-04e7-442a-819b-ede76075318d)
 ![image](https://github.com/skyli91/discord-themes/assets/7442913/cb7faaea-5cdd-4671-854b-cecdd743b160)
 ![image](https://github.com/s-k-y-l-i/discord-themes/assets/7442913/e1a0bc3e-c9d5-470e-adbd-f9f393f4951c)
+![image](https://github.com/s-k-y-l-i/discord-themes/assets/7442913/16c0c052-c4bc-4fec-afaa-a4ddc57823ad)
+
 
 
 <br><br><br><br><br>
