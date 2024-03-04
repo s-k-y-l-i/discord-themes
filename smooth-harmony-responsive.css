@@ -2,6 +2,21 @@
     border-top: 0;
 }
 
+.clipContainer__99c30 {
+    padding-top: 0px; 
+    margin-top: 0px; 
+}
+
+
+.divider__2bbbc {
+    background-color: transparent;
+}
+.mutualFriendsDivider_c21dfe {
+    border-top: 0;
+}
+.theme-dark .embedFull__8dc21,  .reaction_fef95b, .markup_a7e664 code {
+    background: rgba(255, 255, 255, 0.06);
+}
 
 
 form.form__13a2c {
@@ -40,7 +55,7 @@ nav.container__590e2 {
 
 
 .typingDots_d92d42 {
-    margin-left: 47px;
+    margin-left: -1px;
     margin-bottom: 13px;
 }
 
@@ -519,9 +534,6 @@ background: var(--bg-overlay-2,var(--background-secondary))!important;}
     
     width: 220px;
     
-}
-.subtitle_bba2b7, .name__8d1ec {
-    overflow: visible;
 }
 .form__13a2c {
     position: relative;
