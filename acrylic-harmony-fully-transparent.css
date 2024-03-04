@@ -1,6 +1,6 @@
 :root{
-    --var-opacity-option:0.4;    /*   Acrylic opacity from 0 to 1    */
-    --var-color-saturation:2.8; /* 0 to 999 where 1 is the default */
+    --var-opacity-option:0.2;    /*   Acrylic opacity from 0 to 1    */
+    --var-color-saturation:4.8; /* 0 to 999 where 1 is the default */
 
     /* 
     You can try: 
@@ -176,6 +176,43 @@ margin-top: 0px;
 }
 
 
+
+
+
+.userProfileOuterUnthemed__48723, .userProfileOuterThemed__6eb84 {
+    background:rgba(0, 0, 0, 0.7);
+}
+.banner__6d414 {
+    background-color: transparent!important;
+}
+
+
+/*HOME FUll screen right bar  ACTIVE NOW*/
+.scroller__00e7e {
+    border-left: 0px; 
+    margin-left: 0px; 
+}
+.container__0a6a9 {
+    background: transparent;
+}
+.theme-dark .nowPlayingColumn_f5023f {
+    background: rgba(0, 0, 0, 0.6);
+}
+.theme-light .nowPlayingColumn_f5023f {
+    background: rgba(255, 255, 255, 0.6);
+}
+.theme-dark .peopleColumn__51df3{
+    background: rgba(0, 0, 0, 0.6);
+}
+.theme-light .peopleColumn__51df3{
+    background: rgba(255, 255, 255, 0.6);
+}
+.tabBody_b3d268{
+        background: transparent;
+}
+.theme-dark .actionButton__23182 {
+    background-color: rgba(255, 255, 255, 0.05);}
+
 /*Search sidebar area*/
 .theme-light .searchResultsWrap__9f374 {
     background: rgba(255, 255, 255, 0.5);
@@ -200,12 +237,7 @@ margin-top: 0px;
 .container__5c7e7 {
     background: transparent;
 }
-.theme-light .tabBody_b3d268{
-        background: rgba(255, 255, 255, 0.8);
-}
-.theme-dark .tabBody_b3d268{
-        background: rgba(0, 0, 0, 0.8);
-}
+
 
 .wrapper_bd2abe.minimum_ebf000{
     background-color: transparent!important;
@@ -217,6 +249,54 @@ margin-top: 0px;
 #vc-spotify-player {
     background: transparent!important;
 }
+
+
+
+.replyBar_b64d74 {
+    background: transparent!important;
+}
+.attachedBars_da3c74 {
+    background: transparent;
+}
+
+
+
+
+/*SETTINGS*/
+.sidebarRegionScroller__1fa7e {
+    background: transparent;
+}
+.layer__2efaa {
+    background: transparent;
+}
+.standardSidebarView__1129a{
+    background: transparent;
+}
+
+.contentRegion__0bec1, .contentRegionScroller__86c79{
+    border-top-left-radius: 8px!important;
+}
+.contentRegion__0bec1 {background: transparent;}
+.theme-dark .contentRegionScroller__86c79{
+    background: rgba(0, 0, 0, 0.3);
+}
+.theme-light .contentRegionScroller__86c79{
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.theme-light .themed_b957e8.item__48dda, .theme-light .brand_ce3ecf.item__48dda {
+    color: black;
+}
+.theme-light .header_f72511 {
+     color: rgba(0, 0, 0, 0.7); 
+}
+
+.cardPrimary_cb7a0e {
+    border-color: transparent;
+}
+
+
+
 
 
 
