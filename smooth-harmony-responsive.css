@@ -1,3 +1,14 @@
+.peopleListItem_d14722 {
+    border-top: 0;
+}
+
+
+
+form.form__13a2c {
+    bottom: -2px;
+    top: 0px;
+}
+
 .theme-light .form__13a2c {
     background: transparent!important;
     margin-top: 0px;
@@ -596,3 +607,39 @@ div > [href="/store"], div > [href="/shop"]/* Nitro Button above DM List */ {
 
 
 .divider_c09b64 {display: none;}
+
+.customColumn_e22a6e, .contentColumn_dc7d36 {
+    min-width: 338px;
+
+}
+.contentRegionScroller__86c79 .tools_c0ff70 {    
+    top: 36px;
+    right: 0px;
+    position: fixed;
+}
+.keybind__57645 {
+    margin-top: -24px;
+    margin-right: 76px;
+}
+.sidebar__9e3e2 {
+    width: 176px;}
+
+#uid_6164 circle {
+    display: none;
+}
+.avatar__6c108 {
+    top: 46px;
+    left: 22px;
+}
+
+.bannerSVGWrapper__3e7b0{
+    min-width: 100px!important;
+    min-height: 10px!important;
+}
+
+
+@media only screen and (max-width: 683px)  {
+    .customColumn_e22a6e, .contentColumn_dc7d36 {
+    padding: 60px 25px 80px;
+}
+}
