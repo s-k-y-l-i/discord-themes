@@ -7,6 +7,13 @@
     margin-top: 0px; 
 }
 
+.wrapper_fbbb73 {
+    margin-bottom: 0px;
+    padding-bottom: 17px;
+    background: var(--bg-overlay-2,var(--background-secondary));
+    border-radius: 0;
+}
+
 
 .divider__2bbbc {
     background-color: transparent;
@@ -82,8 +89,8 @@ nav.container__590e2 {
 
 
 
-.container_b2ce9c, .member_b44d5d{
-    background:var(--bg-overlay-4,var(--background-tertiary))!important;
+.container_b2ce9c, .member_b44d5d, .members__9f47b{
+    background:var(--bg-overlay-4,var(--background-secondary));
 }
 
 .theme-light span.username_d272d6 {
