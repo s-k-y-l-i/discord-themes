@@ -46,9 +46,9 @@ https://github.com/skyli91/discord-themes/assets/7442913/a400687c-6bcc-42ca-bc14
 ![image](https://github.com/s-k-y-l-i/discord-themes/assets/7442913/e1a0bc3e-c9d5-470e-adbd-f9f393f4951c)
 ![image](https://github.com/s-k-y-l-i/discord-themes/assets/7442913/16c0c052-c4bc-4fec-afaa-a4ddc57823ad)
 
+Uploading pink color.mp4…
 
-
-<br><br><br><br><br>
+<br><br><br><br>
 
 ### Did my theme brighten your day? You can also brighten mine with a virtual Ice Cream:
 
