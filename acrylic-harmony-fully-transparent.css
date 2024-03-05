@@ -1,6 +1,6 @@
 :root{
     --var-opacity-option:0.2;    /*   Acrylic opacity from 0 to 1    */
-    --var-color-saturation:4.8; /* 0 to 999 where 1 is the default */
+    --var-color-saturation:6; /* 0 to 999 where 1 is the default */
 
     /* 
     You can try: 
@@ -256,7 +256,7 @@ margin-top: 0px;
     background: transparent!important;
 }
 .attachedBars_da3c74 {
-    background: transparent;
+    background: transparent!important;
 }
 
 
@@ -297,6 +297,24 @@ margin-top: 0px;
 
 
 
+.animatedContainer__341f6 {
+    z-index: 3;}
+.hasBanner_e78601 .animatedContainer__341f6 {
+    opacity: 100%!important;
+}
+
+
+.wrapper_bd2abe ~ .content__1a4fe:before {
+  display: none;
+}
+.wrapper_bd2abe ~ .content__1a4fe .scroller__1f96e {
+    border-top-right-radius: 8px ;
+}
+
+.content__4bf10:has(.wrapper_bd2abe) .searchBar_e4ea2a {
+    border-top-right-radius: 8px ;
+}
+
 
 
 
@@ -315,6 +333,7 @@ background: transparent!important;}
 .theme-light .scroller_f0f183{
     background: rgba(255, 255, 255, 0.6)!important;
 }
+
 
 
 .theme-light .sidebar_ded4b5:hover nav.container__590e2 {
