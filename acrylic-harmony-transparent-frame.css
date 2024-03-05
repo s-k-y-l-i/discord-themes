@@ -1,6 +1,13 @@
 :root{
-    --var-opacity-option:0.4;    /*   Acrylic opacity from 0 to 1    */
-    --var-color-saturation:2.8; /* 0 to 999 where 1 is the default */
+    --var-opacity-option: 0.3;    /*   Acrylic opacity from 0 to 1    */
+    --var-color-saturation: 3.5; /* 0 to 999 where 1 is the default  */
+    --var-contrast: 1;          /*     Increase for darker blacks   */
+
+    --var-opacity-titlebar: 0.6;
+    --var-opacity-left-sidebar: 0.7;
+    --var-opacity-bottom-input: 0.6;
+    --var-opacity-right-sidebar: 0.7;
+    --var-opacity-inner-messages: 0.8;
 
     /* 
     You can try: 
@@ -35,5 +42,5 @@ body::before {
     background: var(--bg-overlay-app-frame,var(--background-tertiary));
     opacity: var(--var-opacity-option); /* Átlátszóság beállítása (0-től 1-ig terjedő értékek) */
     z-index: -1; /* Az átlátszó háttér mögé helyezése */
-    filter: saturate(var(--var-color-saturation));
+    filter: saturate(var(--var-color-saturation)) contrast(var(--var-contrast));
 }
