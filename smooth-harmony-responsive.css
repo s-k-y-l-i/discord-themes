@@ -14,6 +14,9 @@
 .theme-light,.theme-dark {
     --background-floating:var(--bg-overlay-home-card);
 }
+.popout__24e32 {
+    background: var(--background-floating);
+}
 
 .userProfileInner__8065b, .footer_a3029c,.messagesPopoutWrap_b3b384, .accountProfileCard__22589, .channelHeader__5d30c, .container__8261a, .sidebarRegionScroller__1fa7e {
     background: var(--bg-overlay-3,var(--background-secondary));}
