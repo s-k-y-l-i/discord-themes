@@ -1,3 +1,82 @@
+.theme-dark .privateChannels__93473, .theme-dark .container__590e2{
+    border-bottom-left-radius: 8px;
+}
+.theme-dark .panels__58331 {
+    margin-left: 6px;}
+
+.theme-dark .container_ca50b9 {
+    margin-left: -6px;}
+
+.lookFilled__19298.colorPrimary__6ed40, .wrapper_c727b6{
+        background: var(--bg-overlay-5,var(--background-primary));
+}
+
+.theme-light,.theme-dark {
+    --background-floating:var(--bg-overlay-home-card);
+}
+
+.userProfileInner__8065b, .footer_a3029c,.messagesPopoutWrap_b3b384, .accountProfileCard__22589, .channelHeader__5d30c, .container__8261a, .sidebarRegionScroller__1fa7e {
+    background: var(--bg-overlay-3,var(--background-secondary));}
+.header_f5cc88, .header__53b07  {
+    background: var(--bg-overlay-app-frame,var(--background-tertiary))!important;}
+
+ .overlayBackground__86b78, .messageGroupWrapper_f8c6e9,.background_b61fcc,.contentRegionScroller__86c79, .contentRegion__0bec1{
+background: var(--bg-overlay-chat,var(--background-primary));}
+
+
+
+.giftButton_ff61dc {display: none;}
+.container__8ee50 {border-top: 0;}
+
+.container_def45c.floating_f021e2 {
+    background: var(--bg-overlay-2,var(--background-secondary));
+}
+
+.sectionDivider__68d2a, .container__4f639:after {
+    visibility: hidden;
+}
+
+.messagesWrapper_ea2b0b:after, .privateChannels__93473:after, .container__590e2:after {
+    box-shadow: none!important;}
+
+section.panels__58331, .form__13a2c {
+box-shadow: 0 -1px 0 hsl(var(--primary-860-hsl) / 0.1), 0 -1.5px 0 hsl(var(--primary-900-hsl) / 0.025), 0 -2px 0 hsl(var(--primary-860-hsl) / 0.025);
+}
+
+::-webkit-scrollbar-track {
+    visibility: hidden;
+}
+
+.message__80c10 .scrollableContainer__33e06.themedBackground__6b1b6.webkit__8d35a {
+    border-radius: 8px;
+}
+
+
+.bar__004d9 {
+    background: none;
+    box-shadow: none;
+}
+
+
+.platform-win .scroller__3d071, .platform-osx .scroller__3d071 {
+    padding-top: 0px;
+}
+
+.guildSeparator_dcb3cc {
+    display: none;
+}
+
+.sidebar_ded4b5 {
+    background: transparent; 
+}
+
+.container__590e2:after{left: 4px!important
+}
+
+
+
+
+
 .peopleListItem_d14722 {
     border-top: 0;
 }
@@ -21,9 +100,7 @@
 .mutualFriendsDivider_c21dfe {
     border-top: 0;
 }
-.theme-dark .embedFull__8dc21,  .reaction_fef95b, .markup_a7e664 code {
-    background: rgba(255, 255, 255, 0.06);
-}
+
 
 
 form.form__13a2c {
@@ -101,9 +178,6 @@ nav.container__590e2 {
     color: gray!important;
 }
 
-.messagesWrapper_ea2b0b.group-spacing-16 {
-   
-}
 
 
 
@@ -222,7 +296,7 @@ separator__8424b button[disabled] {
 }
 .sansAttachButton__996a4:after {top:-2px!important}
 
-.panels__58331, .container_ca50b9, .panel_bd8c76.activityPanel__22355 {
+ .container_ca50b9, .panel_bd8c76.activityPanel__22355 {
 background: var(--bg-overlay-4,var(--background-tertiary))!important;
 
 }
@@ -245,8 +319,8 @@ background: var(--bg-overlay-4,var(--background-tertiary))!important;
 .attachButton_eba568 {
     margin-left: -7px;
     margin-right: 7px;
-}
-}
+    
+}}
 
 @media only screen and (max-width: 418px)  {
 
@@ -344,7 +418,7 @@ img.avatar__08316.clickable_d866f1,
 }
 
 @media only screen and (max-width: 780px)  {
-.separator__8424b {display:none}
+
 
 .container_de798d span {
     max-width: 59px!important;
@@ -371,7 +445,8 @@ h3.membersGroup__85843.container_de798d {
 @media only screen and (max-width: 638px)  {
 
 
-
+.withTagAsButton_cc125f {
+    min-width: 40px;}
 
 
 
@@ -508,6 +583,10 @@ margin-left: -4px;
 .sidebar_ded4b5:hover .vc-spotify-button-row{
    display: flex!important;
 }
+.sidebar_ded4b5:hover .withTagAsButton_cc125f 
+{
+    min-width: 120px;}
+
 .sidebar_ded4b5:hover .actions__9256d{
     visibility: visible!important;
 }
@@ -643,7 +722,7 @@ div > [href="/store"], div > [href="/shop"]/* Nitro Button above DM List */ {
 .sidebar__9e3e2 {
     width: 176px;}
 
-#uid_6164 circle {
+.bannerSVGWrapper__3e7b0 circle {
     display: none;
 }
 .avatar__6c108 {
