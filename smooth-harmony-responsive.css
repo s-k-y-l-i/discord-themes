@@ -34,7 +34,7 @@
     background: var(--bg-overlay-2,var(--background-secondary-alt));
 }
 
-.embed_d3cbe3 code, .header_f5cc88, .header__53b07, .wrapper_cd625e, .container_e4c233  {
+code, .header_f5cc88, .header__53b07, .wrapper_cd625e, .container_e4c233  {
     background: var(--bg-overlay-app-frame,var(--background-tertiary))!important;}
 
  .overlayBackground__86b78, .messageGroupWrapper_f8c6e9,.background_b61fcc,.contentRegionScroller__86c79, .contentRegion__0bec1{
