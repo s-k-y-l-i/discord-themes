@@ -2,25 +2,32 @@
     border-bottom-left-radius: 8px;
 }
 .theme-dark .panels__58331 {
-    margin-left: 6px;}
+    margin-left: 5px;}
 
 .theme-dark .container_ca50b9 {
-    margin-left: -6px;}
+    margin-left: -5px;}
 
-.lookFilled__19298.colorPrimary__6ed40, .wrapper_c727b6{
+.lookFilled__19298.colorPrimary__6ed40, .wrapper_c727b6, .navButtonActive__735cb{
         background: var(--bg-overlay-5,var(--background-primary));
 }
 
-.theme-light,.theme-dark {
-    --background-floating:var(--bg-overlay-home-card);
+.scroller__750f5,.resultsGroup_ea9b64{
+    background:var(--bg-overlay-home-card);
 }
+.option_b5597b::after {display:none;}
+
 .popout__24e32 {
-    background: var(--background-floating);
+    background: var(--bg-overlay-home-card);
 }
 
-.userProfileInner__8065b, .footer_a3029c,.messagesPopoutWrap_b3b384, .accountProfileCard__22589, .channelHeader__5d30c, .container__8261a, .sidebarRegionScroller__1fa7e {
+.userProfileInner__8065b, .wrapper__7a35f, .contentWrapper__321ed, .footer_a3029c,.messagesPopoutWrap_b3b384, .accountProfileCard__22589, .channelHeader__5d30c, .container__8261a, .sidebarRegionScroller__1fa7e {
     background: var(--bg-overlay-3,var(--background-secondary));}
-.header_f5cc88, .header__53b07  {
+
+.inspector__993e1 {
+    background: var(--bg-overlay-2,var(--background-secondary-alt));
+}
+
+.header_f5cc88, .header__53b07, .wrapper_cd625e, .container_e4c233  {
     background: var(--bg-overlay-app-frame,var(--background-tertiary))!important;}
 
  .overlayBackground__86b78, .messageGroupWrapper_f8c6e9,.background_b61fcc,.contentRegionScroller__86c79, .contentRegion__0bec1{
@@ -43,7 +50,7 @@ background: var(--bg-overlay-chat,var(--background-primary));}
     box-shadow: none!important;}
 
 section.panels__58331, .form__13a2c {
-box-shadow: 0 -1px 0 hsl(var(--primary-860-hsl) / 0.1), 0 -1.5px 0 hsl(var(--primary-900-hsl) / 0.025), 0 -2px 0 hsl(var(--primary-860-hsl) / 0.025);
+box-shadow: 0 -0.5px 0 hsl(var(--primary-860-hsl) / 0.1), 0 -1px 0 hsl(var(--primary-900-hsl) / 0.025), 0 -1.5px 0 hsl(var(--primary-860-hsl) / 0.025);
 }
 
 ::-webkit-scrollbar-track {
