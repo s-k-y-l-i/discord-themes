@@ -3,11 +3,11 @@
     --var-color-saturation: 1.2; /* 0 to 999 where 1 is the default  */
     --var-contrast: 1;          /*     Increase for darker blacks   */
 
-    --var-opacity-titlebar: 0.6;
-    --var-opacity-left-sidebar: 0.2;
+    --var-opacity-titlebar: 0.2;
+    --var-opacity-left-sidebar: 0.3;
     --var-opacity-bottom-input: 0.0;
     --var-opacity-right-sidebar: 0.4;
-    --var-opacity-inner-messages: 0.2;
+    --var-opacity-inner-messages: 0.3;
 
     /* 
     You can try: 
@@ -59,9 +59,9 @@ body::before {
     margin-left: 0px !important;}
 
 .panels__58331 {
-    margin-left: calc(5px * (1 - 9999 * var(--var-opacity-bottom-input, 0)))!important;}
+    margin-left: calc(4px * (1 - 9999 * var(--var-opacity-bottom-input, 0)))!important;}
 .container_ca50b9 {
-    margin-left: calc(-5px * (1 - 9999 * var(--var-opacity-bottom-input, 0)))!important;}
+    margin-left: calc(-4px * (1 - 9999 * var(--var-opacity-bottom-input, 0)))!important;}
 
 
 
@@ -419,7 +419,7 @@ margin-top: 0px;
 }
 
 section.panels__58331 {
-box-shadow: 0 -1px 0 hsl(var(--primary-860-hsl) / 0.1), 0 -1.5px 0 hsl(var(--primary-900-hsl) / 0.025), 0 -2px 0 hsl(var(--primary-860-hsl) / 0.025);
+box-shadow: 0 -0.5px 0 hsl(var(--primary-860-hsl) / 0.1), 0 -1px 0 hsl(var(--primary-900-hsl) / 0.025), 0 -1.5px 0 hsl(var(--primary-860-hsl) / 0.025);
 }
 
 nav.container__590e2 {
