@@ -1,13 +1,7 @@
 :root{
-    --var-opacity-option: 0.3;    /*   Acrylic opacity from 0 to 1    */
-    --var-color-saturation: 3.5; /* 0 to 999 where 1 is the default  */
-    --var-contrast: 1;          /*     Increase for darker blacks   */
-
-    --var-opacity-titlebar: 0.6;
-    --var-opacity-left-sidebar: 0.7;
-    --var-opacity-bottom-input: 0.6;
-    --var-opacity-right-sidebar: 0.7;
-    --var-opacity-inner-messages: 0.8;
+    --var-opacity-option: 0.8;    /*   Acrylic opacity from 0 to 1    */
+    --var-color-saturation: 1; /* 0 to 999 where 1 is the default  */
+    --var-contrast: 1.07;          /*     Increase for darker blacks   */
 
     /* 
     You can try: 
