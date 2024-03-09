@@ -19,15 +19,22 @@
 .popout__24e32 {
     background: var(--bg-overlay-home-card);
 }
+.theme-dark .embedFull__8dc21 {
+    border-left: 4px solid rgba(255,255,255,0.03);}
+.theme-light .embedFull__8dc21 {
+    border-left: 4px solid rgba(0,0,0,0.03);}
 
-.userProfileInner__8065b, .wrapper__7a35f, .contentWrapper__321ed, .footer_a3029c,.messagesPopoutWrap_b3b384, .accountProfileCard__22589, .channelHeader__5d30c, .container__8261a, .sidebarRegionScroller__1fa7e {
+.container__767d1, .embedFull__8dc21,.userProfileInner__8065b,
+.wrapper__7a35f, .contentWrapper__321ed, 
+.footer_a3029c,.messagesPopoutWrap_b3b384, .accountProfileCard__22589, 
+.channelHeader__5d30c, .container__8261a, .sidebarRegionScroller__1fa7e {
     background: var(--bg-overlay-3,var(--background-secondary));}
-
+    
 .inspector__993e1 {
     background: var(--bg-overlay-2,var(--background-secondary-alt));
 }
 
-.header_f5cc88, .header__53b07, .wrapper_cd625e, .container_e4c233  {
+.embed_d3cbe3 code, .header_f5cc88, .header__53b07, .wrapper_cd625e, .container_e4c233  {
     background: var(--bg-overlay-app-frame,var(--background-tertiary))!important;}
 
  .overlayBackground__86b78, .messageGroupWrapper_f8c6e9,.background_b61fcc,.contentRegionScroller__86c79, .contentRegion__0bec1{
@@ -615,11 +622,24 @@ background: var(--bg-overlay-2,var(--background-secondary))!important;}
 
 
 
-.jumpToPresentBar__0ff7f {
-    background-color: var(--os-accent-color);
+.jumpToPresentBar__0ff7f,.botTagRegular_c89c9a {
+    background: var(--bg-overlay-app-frame,var(--os-accent-color));
+    backdrop-filter: blur(20px);
 }
-
-
+.newMessagesBar__8b6d7 {
+    background: var(--bg-overlay-app-frame,var(--os-accent-color));
+    backdrop-filter: blur(20px);}
+.theme-light .wrapper_f46140{
+    background: var(--bg-overlay-6,var(--os-accent-color));
+    color: rgba(0, 0, 0, 0.8)
+}
+.theme-dark .wrapper_f46140{
+    background: var(--bg-overlay-6,var(--os-accent-color));
+    color: rgba(255, 255, 255, 0.8)
+}
+html{
+    --brand-experiment: var(--os-accent-color);
+}
 
 .linkTop_eaa673 .iconContainer__3f9b0 .icon_eff5d4{
   opacity: 60%!important;
