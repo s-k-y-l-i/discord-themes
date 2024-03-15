@@ -10,7 +10,6 @@
 ```
 https://raw.githubusercontent.com/s-k-y-l-i/discord-themes/main/smooth-harmony-responsive.css
 https://raw.githubusercontent.com/s-k-y-l-i/discord-themes/main/acrylic-harmony-fully-transparent.css
-https://raw.githubusercontent.com/s-k-y-l-i/discord-themes/main/acrylic-harmony-transparent-frame.css
 ```
 #### Enabling transparency:
  - Enable transparency in **[ Vesktop Settings ] > [ Transparency Options ]** <br>
