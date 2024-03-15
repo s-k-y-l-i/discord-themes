@@ -1,3 +1,5 @@
+.container_ca50b9:before{display: none;}
+
 .container__590e2 .progressBarContainer__9b571.bar_ef682d{
 display: none;
 }
@@ -201,12 +203,6 @@ max-width: fit-content;
   height: 115px;
 }
 
-#vc-spotify-player::before {
-  background: var(--vc-spotify-track-image);
-  background-size: cover;
-  background-position: center;
-  opacity: 0;
-}
 
 
 #vc-spotify-progress-bar {
@@ -1496,6 +1492,27 @@ display: none;}
 .panels__58331 {
     margin-left: 4px!important;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
