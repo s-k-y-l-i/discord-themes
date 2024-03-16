@@ -28,7 +28,8 @@ Theme settings:
     --var-opacity-left-sidebar: 0.3;
     --var-opacity-bottom-input: 0.2;
     --var-opacity-right-sidebar: 0.3;
-    --var-opacity-inner-messages: 0.4;  ```
+    --var-opacity-inner-messages: 0.4; 
+```
 
 #### Acrylic Harmony - Transparent Frame
 Transparency on the main titlebar and server sidebar only.
