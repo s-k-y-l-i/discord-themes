@@ -434,7 +434,7 @@ margin-top: 0px;
     color: black;
 }
 .theme-light .header_f72511 {
-     color: rgba(0, 0, 0, var(--var-opacity-titlebar)); 
+     color: rgba(0, 0, 0, 0.6); 
 }
 
 .cardPrimary_cb7a0e {
@@ -482,9 +482,7 @@ margin-top: 0px;
     background: rgba(255, 255, 255, 0.25)!important;
 }
 
-section.panels__58331 {
-/*box-shadow: 0 -0.5px 0 hsl(var(--primary-860-hsl) / 0.1), 0 -1px 0 hsl(var(--primary-900-hsl) / 0.025), 0 -1.5px 0 hsl(var(--primary-860-hsl) / 0.025);
-*/}
+
 
 nav.container__590e2 {
     border-bottom-left-radius: 8px;
@@ -581,7 +579,7 @@ content: ''; /* Tartalom hozzáadása a :before pseudoelemhez */
 }
 
 .theme-dark .panels__58331 > div:nth-child(2):has(div):before,
-.panels__58331 > .panel_bd8c76.activityPanel__22355:before{
+.theme-dark .panels__58331 > .panel_bd8c76.activityPanel__22355:before{
       background: rgba(0, 0, 0, var(--var-opacity-left-sidebar));
 }
 .theme-light .panels__58331 > div:nth-child(2):has(div):before,
@@ -731,3 +729,26 @@ background: rgba(0, 0, 0, var(--var-opacity-inner-messages))!important;
 .voiceChannelsButton__46c37{border: 0;}
 
 .container_ca50b9:before{display: none;}
+
+
+/*transparent text colors*/
+
+.theme-light, .theme-light 
+[class^=placeholder][class*=slateTextArea]{
+--text-muted: rgba(0, 0, 0, 0.5);
+--channel-text-area-placeholder: rgba(0, 0, 0, 0.5);}
+
+.theme-dark, .theme-dark 
+[class^=placeholder][class*=slateTextArea]{
+--text-muted: rgba(255, 255, 255, 0.5);
+--channel-text-area-placeholder: rgba(255, 255, 255, 0.5);}
+
+
+
+
+
+
+.content_d67847{
+    backdrop-filter: blur(5px);
+    background: transparent;
+}
