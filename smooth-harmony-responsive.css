@@ -855,7 +855,7 @@ background: var(--bg-overlay-4,var(--background-tertiary))!important;
     border-bottom:0px;
     background: var(--bg-overlay-app-frame,var(--background-tertiary))!important;}
 
-.upperContainer__993ba .toolbar__88c63 .iconWrapper_af9215:nth-child(2),   
+.chat__52833:not(.threadSidebarOpen_fa231d) .upperContainer__993ba .toolbar__88c63 .iconWrapper_af9215:nth-child(2),   
 /*[aria-label="Start Video Call"],
 [aria-label="Videohívás indítása"]*/
 .akaBadge__7df41,
@@ -1299,8 +1299,6 @@ html{
 /*Nukes the discord branding*/
 [class^=wordmarkWindows],
 [class^=typeWindows-]:not([class*=withBackgroundOverride]), 
-#app-mount:has([class^=container]>[class^=uploadArea]>[class^=uploadDropModal])>[class^=typeWindows], 
-#app-mount:has([class^=chatLayerWrapper]>[class^=container]>[class^=container])>[class^=typeWindows], 
 #app-mount:has([class^=pageWrapper])>[class^=typeWindows] 
 {
     display: none
