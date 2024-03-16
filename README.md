@@ -18,10 +18,20 @@ https://raw.githubusercontent.com/s-k-y-l-i/discord-themes/main/acrylic-harmony-
  - If using multiple themes, <u>**place Acrylic theme for last**</u>!
 
 #### Acrylic Harmony - Fully Transparent
-This Discord theme adds the translucent Mica effect to your whole Discord client background. It's compatible with all of the Nitro Themes.  
+This theme adds the transparency effect to your whole Discord client. It's compatible with all of the Nitro Themes too.
+Theme settings:
+```css
+    --var-opacity-option: 0.4;  /* Set's the BASE opacity (titlebar, and the server bar) */
+    --var-color-saturation: 1.6;/* Increase for more colorful appearance*/
+    --var-contrast: 1;          /* Increase for more contrast (darker shadows) */
+    --var-opacity-titlebar: 0.2; 
+    --var-opacity-left-sidebar: 0.3;
+    --var-opacity-bottom-input: 0.2;
+    --var-opacity-right-sidebar: 0.3;
+    --var-opacity-inner-messages: 0.4;  ```
 
 #### Acrylic Harmony - Transparent Frame
-Transparency on titlebar and server sidebar only.
+Transparency on the main titlebar and server sidebar only.
 
 #### Smooth Harmony
 A Discord theme to remove the clutter and make it able to responsively resize to smaller sizes. It's also working with all the colorful Discord Nitro themes, including dark and light themes. It's pleasant to the eyes and easy to use.
