@@ -19,7 +19,7 @@ https://raw.githubusercontent.com/s-k-y-l-i/discord-themes/main/acrylic-harmony-
 
 #### Acrylic Harmony - Fully Transparent
 This theme adds the transparency effect to your whole Discord client. It's compatible with all of the Nitro Themes too.<br>
-**Theme settings:**
+ - **Theme settings:**
 ```css
     --var-opacity-option: 0.4;  /* Set's the BASE opacity (titlebar, and the server bar) */
     --var-color-saturation: 1.6;/* Increase for more colorful appearance*/
