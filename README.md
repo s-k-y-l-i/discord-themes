@@ -11,6 +11,7 @@
 https://raw.githubusercontent.com/s-k-y-l-i/discord-themes/main/smooth-harmony-responsive.css
 https://raw.githubusercontent.com/s-k-y-l-i/discord-themes/main/acrylic-harmony-fully-transparent.css
 ```
+- For using with [**BetterDiscord**](https://betterdiscord.app/), download the .css theme files to `%APPDATA%\Roaming\BetterDiscord\themes`
 #### Enabling transparency:
  - Enable transparency in **[ Vesktop Settings ] > [ Transparency Options ]** <br>
    or **[ Vencord ] > [ Enable Window transparency ]**
