@@ -4,7 +4,7 @@
 
 ## Simple install:
 
-- Use [**Vesktop**](https://github.com/Vencord/Vesktop/releases) (faster and more lightweight) or [**Vencord**](https://vencord.dev/download/) and copy the theme URLs to **[ Options ] > [ Themes ] > [ Online Themes ]**:
+- For [**Vesktop**](https://github.com/Vencord/Vesktop/releases) or [**Vencord**](https://vencord.dev/download/) and copy the theme URLs to **[ Options ] > [ Themes ] > [ Online Themes ]**:
 
 ```
 https://raw.githubusercontent.com/s-k-y-l-i/discord-themes/main/smooth-harmony-responsive.css
