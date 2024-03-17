@@ -1,6 +1,7 @@
 @import url('https://raw.githubusercontent.com/s-k-y-l-i/discord-themes/main/Theme%20code/transparency.css');
 
 
+/* Config */
 :root{
     --var-opacity-option: 0.4;    /*   Acrylic opacity from 0 to 1    */
     --var-color-saturation: 1.6; /* 0 to 999 where 1 is the default  */
@@ -8,16 +9,15 @@
 
     --var-opacity-titlebar: 0.2;
     --var-opacity-left-sidebar: 0.3;
-    --var-opacity-bottom-input: 0.2;
+    --var-opacity-bottom-input: 0.2; /* Change the transparency of different elements */
     --var-opacity-right-sidebar: 0.3;
     --var-opacity-inner-messages: 0.4;
 
     /* 
-    You can try: 
-    0.1 opacity with 99 saturation
-    0.4 opacity with 2.8 saturation
-    0.6 opacity with 1.8 saturation            */
-    
+    For example: 
+    0.1 --var-opacity-option with 99 --var-color-saturation
+    0.4 --var-opacity-option with 2.8 --var-color-saturation
+    0.6 --var-opacity-option with 1.8 --var-color-saturation        */
 }
 
 
