@@ -1,8 +1,38 @@
+
+.resizeHandle_f1a098{
+            background: transparent;
+
+}
+
+.theme-light .winButton__88672, .theme-light winButtonClose__73489
+{
+    color: rgba(0, 0, 0, 0.5);             
+}
+.theme-dark .winButton__88672, .theme-light winButtonClose__73489
+{
+    color: rgba(255, 255, 255, 0.5);       
+}
+.theme-light .winButtonMinMax__72f36:hover, .theme-light winButtonClose__73489 winButton__88672:hover {
+    color: rgba(0, 0, 0, 0.8);             }
+.theme-dark .winButtonMinMax__72f36:hover, .theme-dark winButtonClose__73489 winButton__88672:hover {
+    color: rgba(255, 255, 255, 0.8);             }
+
+button.sortDropdown_ec3016.button_afdfd9.lookFilled__19298.sizeMin__94642.grow__4c8a4, 
+.sortDropdown_ec3016,
+button.tagsButton_e96762.button_afdfd9.lookFilled__19298.sizeMin__94642.grow__4c8a4{
+    background: var(--bg-overlay-3,var(--background-secondary-alt));
+}
+
+.button_afdfd9 .contents_fb6220.buttonInner__2771e, .addReactButton__59750{
+    background: var(--bg-overlay-3,var(--background-secondary));
+}
+
 h3.defaultColor__37d78.text-sm-normal_e612c7.defaultColor__87d87 {
     display: none;
 }
 
-.content__1a4fe:before,.searchBar_e4ea2a,.header__104ca{
+.content__1a4fe:before,.searchBar_e4ea2a,.header__104ca,
+.chat__1d65d:before{
     box-shadow: 0 1px 0 rgba(0,0,0,0.05), 0 1.5px 0 rgba(0,0,0,0.025), 0 2px 0 rgba(0,0,0,0.025)!important;
 
 }
@@ -152,7 +182,7 @@ max-width: fit-content;
     background: var(--bg-overlay-3,var(--background-secondary));
 }
 
-.jumpButton_da1ebb,.jumpButton__0329d,.spoilerMarkdownContent__2b8f8,.total_c01838,.blockquoteDivider__96157{
+.jumpButton_da1ebb,.jumpButton__0329d,.jump_d5b765,.spoilerMarkdownContent__2b8f8,.total_c01838,.blockquoteDivider__96157{
         background: var(--bg-overlay-app-frame,var(--background-tertiary));
 
 }
@@ -176,9 +206,14 @@ max-width: fit-content;
 .friendRequestsButton_f19806,.secondary_c96c46  {
     background: var(--bg-overlay-3,var(--background-secondary));}
 
-.container__10dc7,.wrapper_efe67f{
+.container__10dc7,.wrapper_efe67f,.iconWrapper__3e4a9,.iconWrapper__85630{
             background: var(--bg-overlay-3,var(--background-secondary));
- ;}
+}
+
+.iconWrapper__3e4a9,.iconWrapper__85630{
+            background: var(--bg-overlay-4,var(--background-accent));
+}
+
 .prompt__1b100,.prompt__671aa,.channelRow__96673,.users__65981,.chatHeaderBar__28ee6,.moreUsers_cd5dfc{
     background: var(--bg-overlay-chat,var(--background-primary))!important;}
 
@@ -587,7 +622,8 @@ background: var(--bg-overlay-chat,var(--background-primary));}
 
 
 .giftButton_ff61dc {display: none;}
-.container__8ee50 {border-top: 0;}
+.container__8ee50 {border-top: 0;
+background: transparent;}
 
 .container_def45c.floating_f021e2 {
     background: var(--bg-overlay-2,var(--background-secondary));
@@ -894,14 +930,14 @@ background: var(--bg-overlay-4,var(--background-tertiary))!important;
     border-bottom:0px;
     background: var(--bg-overlay-app-frame,var(--background-tertiary))!important;}
 
-.upperContainer__993ba .toolbar__88c63 .iconWrapper_af9215:nth-child(2),   
+.chat__52833 .upperContainer__993ba .toolbar__88c63 .iconWrapper_af9215:nth-child(2),   
 /*[aria-label="Start Video Call"],
 [aria-label="Videohívás indítása"]*/
 .akaBadge__7df41,
-.upperContainer__993ba .toolbar__88c63 .iconWrapper_af9215:nth-child(5), 
+.chat__52833 .upperContainer__993ba .toolbar__88c63 .iconWrapper_af9215:nth-child(5), 
 /*[aria-label="Show User Profile (Unavailable)"], 
 [aria-label="Felhasználói profil megjelenítése (Nem érhető el)"], */
-.toolbar__88c63 .anchor_c8ddc0
+.chat__52833 .toolbar__88c63 .anchor_c8ddc0
 {display: none!important;}
 
 
@@ -1345,8 +1381,6 @@ html{
 /*Nukes the discord branding*/
 [class^=wordmarkWindows],
 [class^=typeWindows-]:not([class*=withBackgroundOverride]), 
-#app-mount:has([class^=container]>[class^=uploadArea]>[class^=uploadDropModal])>[class^=typeWindows], 
-#app-mount:has([class^=chatLayerWrapper]>[class^=container]>[class^=container])>[class^=typeWindows], 
 #app-mount:has([class^=pageWrapper])>[class^=typeWindows] 
 {
     display: none
