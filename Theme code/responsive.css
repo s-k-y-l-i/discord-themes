@@ -1489,7 +1489,7 @@ display: none;}
 
 
 .channelTextArea__2e60f {
-    background: var(--bg-overlay-chat,var(--background-primary))!important;
+    background: var(--bg-overlay-chat,var(--background-primary));
 }
 .themedBackground__6b1b6 {
     background: var(--bg-overlay-3,var(--background-secondary));
