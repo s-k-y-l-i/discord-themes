@@ -1,8 +1,17 @@
+/**
+ * @name Smooth Harmony
+ * @author s-k-y-l-i
+ * @description Smooth and responsive Discord theme with nitro colors applied everywhere, cleaner look and less clutter.
+ * @version 0.9.5
+ * @donate https://www.buymeacoffee.com/skyli
+ * @source https://github.com/s-k-y-l-i/discord-themes
+ */
+
 @import url('https://raw.githubusercontent.com/s-k-y-l-i/discord-themes/main/Theme%20code/responsive.css');
 
-/*Config*/
+/* Settings */
 :root{
     --accent: var(--os-accent-color); 
 }
     /* Change the Purple discord accent to something else */    
-    /* --os-accent-color get's it from your OS theme  */    
+    /* --os-accent-color gets it from your OS  */    
