@@ -613,8 +613,12 @@ code{border:0!important;}
 
  .overlayBackground__86b78:not(.userPopoutOverlayBackground_d8afa4), .messageGroupWrapper_f8c6e9,
  .background_b61fcc,.contentRegionScroller__86c79, 
- .contentRegion__0bec1,.searchResult_dcd237{
+ .contentRegion__0bec1{
 background: var(--bg-overlay-chat,var(--background-primary));}
+
+.searchResult_dcd237 {
+    background: var(--bg-overlay-4,var(--background-primary));
+}
 
 .root_a28985 {
     background: var(--bg-overlay-chat,var(--background-primary));}
@@ -929,7 +933,7 @@ background: var(--bg-overlay-4,var(--background-tertiary))!important;
     border-bottom:0px;
     background: var(--bg-overlay-app-frame,var(--background-tertiary))!important;}
 
-.chat__52833 .upperContainer__993ba .toolbar__88c63 .iconWrapper_af9215:nth-child(2),   
+.chat__52833 .title_b7d661:not(.forumOrHome__75784) .upperContainer__993ba .toolbar__88c63 .iconWrapper_af9215:nth-child(2),   
 /*[aria-label="Start Video Call"],
 [aria-label="Videohívás indítása"]*/
 .akaBadge__7df41,
@@ -1489,7 +1493,7 @@ display: none;}
 
 
 .channelTextArea__2e60f {
-    background: var(--bg-overlay-chat,var(--background-primary));
+    background: var(--bg-overlay-chat,var(--background-primary))!important;
 }
 .themedBackground__6b1b6 {
     background: var(--bg-overlay-3,var(--background-secondary));
