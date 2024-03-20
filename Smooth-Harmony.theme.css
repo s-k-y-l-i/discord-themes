@@ -13,5 +13,15 @@
 :root{
     --accent: var(--os-accent-color); 
 }
-    /* Change the Purple discord accent to something else */    
-    /* --os-accent-color gets it from your OS  */    
+/*  Change the Purple discord accent 
+    This color will be the "new messages bar", 
+    join arrows, etc.
+
+    Examples:
+    --accent: aqua;
+    --accent: deeppink;
+    --accent: greenyellow;
+    --accent: aquamarine;
+    --accent: crimson;
+ 
+    --accent: --os-accent-color is the default  */    
