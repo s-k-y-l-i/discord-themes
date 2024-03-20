@@ -7,8 +7,8 @@
 - For [**Vesktop**](https://github.com/Vencord/Vesktop/releases) or [**Vencord**](https://vencord.dev/download/), copy the theme URLs to **[ Options ] > [ Themes ] > [ Online Themes ]**:
 
 ```
-https://s-k-y-l-i.hithub.io/discord-themes/Smooth-Harmony-theme.css
-https://s-k-y-l-i.hithub.io/discord-themes/Acrylic-Harmony-theme.css
+https://s-k-y-l-i.github.io/discord-themes/Smooth-Harmony-theme.css
+https://s-k-y-l-i.github.io/discord-themes/Acrylic-Harmony-theme.css
 ```
 - For [**BetterDiscord**](https://betterdiscord.app/), download the .css theme files to `%APPDATA%\Roaming\BetterDiscord\themes`
 #### Enabling transparency:
