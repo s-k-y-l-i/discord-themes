@@ -267,6 +267,8 @@ h3.defaultColor__37d78.text-sm-normal_e612c7.defaultColor__87d87 {
 #vc-spotify-song-title + div + div::before {
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-size: contain;
     padding: 7px;
     margin-left: -17px;
     margin-top: 2px;
@@ -295,7 +297,7 @@ h3.defaultColor__37d78.text-sm-normal_e612c7.defaultColor__87d87 {
     height: 50px;
     background: transparent !important;
     position: relative;
-    transition: height 0.1s ease-out;
+    transition: height 0.1s ease;
     padding: 7px !important;
     padding-top: 8px !important;
 }
@@ -371,7 +373,6 @@ h3.defaultColor__37d78.text-sm-normal_e612c7.defaultColor__87d87 {
 #vc-spotify-progress-bar,
 .vc-spotify-button-row {
     opacity: 0;
-    transition: opacity 0.1s ease-out;
 }
 
 #vc-spotify-player:hover #vc-spotify-progress-bar,
@@ -403,6 +404,7 @@ h3.defaultColor__37d78.text-sm-normal_e612c7.defaultColor__87d87 {
 }
 #vc-spotify-album-expanded-wrapper {
     margin-left: -11px;
+    margin-top: -1px;
 }
 
 #vc-spotify-album-expanded-wrapper ~ .vc-spotify-button-row {
@@ -499,7 +501,7 @@ h3.defaultColor__37d78.text-sm-normal_e612c7.defaultColor__87d87 {
 
 .panels__58331:has(.container_d667ff),
 .wrapper__0ed4a {
-    border-top-right-radius: 8px;
+    border-top-right-radius: 10px;
 }
 
 .searchBar_e4ea2a {
@@ -709,29 +711,38 @@ code {
     visibility: hidden;
 }
 
-.messagesWrapper_ea2b0b:after,
-.privateChannels__93473:after,
-.container__590e2:after {
-    box-shadow: none !important;
-}
-
 .form__13a2c {
     box-shadow:
         0 -0.5px 0 rgba(0, 0, 0, 0.05),
         0 -1px 0 rgba(0, 0, 0, 0.025),
         0 -1.5px 0 rgba(0, 0, 0, 0.025);
 }
-.panels__58331 > div:nth-child(2):has(div),
-.panels__58331 > .panel_bd8c76.activityPanel__22355 {
+.panels__58331 div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a, .container_ca50b9):not(:empty) {
     box-shadow:
         0 -0.5px 0 rgba(0, 0, 0, 0.05),
         0 -1px 0 rgba(0, 0, 0, 0.025),
         0 -1.5px 0 rgba(0, 0, 0, 0.025);
-    margin-left: 0px !important;
 }
-.panels__58331 > div:has(div) > div {
+
+.panels__58331 div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a):not(:empty) {
+
+    margin-left: 0px !important;
+    border-top-right-radius: 11px;
+}
+
+.panels__58331 div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a, .container_ca50b9):not(:empty) ~ div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a, .container_ca50b9):not(:empty){
+    box-shadow: none;
+    border-top-right-radius: 0px;
+}
+
+
+/*.panels__58331 div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a):not(:empty) > div {
     margin-left: -6px;
 }
+.panels__58331 div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a):not(:empty) > div ~ div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a):not(:empty) > div{
+}*/
+
+
 div#vc-spotify-info-wrapper {
     margin-left: -4px;
 }
@@ -830,8 +841,14 @@ nav.container__590e2 {
     border-top-left-radius: 8px !important;
 }
 
+.theme-dark .wrapper__0ed4a .container_d667ff,
+.theme-light .wrapper__0ed4a .container_d667ff {
+    background: transparent;
+}
+
 .container_d667ff {
     border-bottom: 0px;
+    padding-left: 4px;
 }
 
 .channelTextArea__2e60f {
@@ -958,23 +975,7 @@ separator__8424b button[disabled] {
     border-bottom: 0px;
 }
 
-.messagesWrapper_ea2b0b:after,
-.privateChannels__93473:after,
-.container__590e2:after {
-    content: "";
-    position: absolute;
-    display: block;
-    bottom: 2px;
-    left: 0;
-    right: 0px;
-    height: 1px;
-    box-shadow:
-        0 2px 0 rgba(0, 0, 0, 0.05),
-        0 1.5px 0 rgba(0, 0, 0, 0.025),
-        0 1px 0 rgba(0, 0, 0, 0.025);
-    z-index: 1;
-    pointer-events: none;
-}
+
 .sansAttachButton__996a4:after {
     top: -2px !important;
 }
@@ -1153,6 +1154,15 @@ background: var(--bg-overlay-4,var(--background-tertiary))!important;
 }
 /* Médialekérdezések 638 pixel szélesség alatt */
 @media only screen and (max-width: 638px) {
+
+    .sidebar_ded4b5:not(:hover) #vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) {
+        margin-left: 5px!important;
+        padding-left: 2px!important;
+        padding-right: 3px!important;
+        padding-bottom: 10px!important;
+        padding-top: 0px!important;
+    }
+
     .animatedContainer__341f6 {
         visibility: hidden;
     }
@@ -1168,11 +1178,15 @@ background: var(--bg-overlay-4,var(--background-tertiary))!important;
         z-index: 9999999;
         overflow: visible;
     }
-    .rtcConnectionStatus__40882,
-    .subtext__8f869 {
+    .rtcConnectionStatus__40882{
         overflow: visible;
-        margin-left: -2px;
+        margin-left: 7px;
     }
+    .subtext__8f869 {
+        margin-left: -8px!important;
+    }
+
+
     .actionButtons_b58cbb {
         display: none;
     }
@@ -1223,8 +1237,6 @@ background: var(--bg-overlay-4,var(--background-tertiary))!important;
     .vc-spotify-button-row {
         display: none !important;
     }
-    #vc-spotify-player {
-    }
 
     #vc-spotify-titles {
         visibility: hidden;
@@ -1267,9 +1279,6 @@ background: var(--bg-overlay-4,var(--background-tertiary))!important;
         visibility: hidden;
     }
 
-    .flex_f5fbb7.horizontal__992f6.justifyStart__42744.alignStretch_e239ef.noWrap__5c413 {
-    }
-
     h2.privateChannelsHeaderContainer_ddcec6.container_de798d,
     .recentsIcon__3c4cf,
     .toolbar__88c63 .anchor_c8ddc0,
@@ -1283,7 +1292,6 @@ background: var(--bg-overlay-4,var(--background-tertiary))!important;
 
     .sidebar_ded4b5 > :not(.privateChannels__93473) .content__23cab {
         visibility: hidden;
-        transition: visibility 0.1s ease;
     }
 
     .layout__59abc {
@@ -1473,6 +1481,7 @@ div > [href="/store"], div > [href="/shop"]/* Nitro Button above DM List */ {
 }
 .container_ca50b9 {
     height: 52px;
+    padding-left: 3px;
 }
 
 .divider_c09b64 {
@@ -1609,7 +1618,7 @@ div > [href="/store"], div > [href="/shop"]/* Nitro Button above DM List */ {
 }
 
 .wrapper_bd2abe.minimum_ebf000 {
-    background-color: transparent !important;
+        background: var(--bg-overlay-app-frame, var(--background-tertiary));
 }
 .content__4bf10:has(.wrapper_bd2abe) .searchBar_e4ea2a {
     border-top-right-radius: 8px;
@@ -1658,8 +1667,7 @@ div > [href="/store"], div > [href="/shop"]/* Nitro Button above DM List */ {
     background: var(--bg-overlay-2, var(--background-secondary)) !important;
 }
 
-.panels__58331 > div:nth-child(2):has(div):before,
-.panels__58331 > .panel_bd8c76.activityPanel__22355:before {
+.panels__58331 div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a):not(:empty)::before {
     content: ""; /* Tartalom hozzáadása a :before pseudoelemhez */
     position: absolute; /* Abszolút pozícionálás a szülő elemhez képest */
     top: 0; /* A tartalom pozíciója a szülő felső részéhez képest */
@@ -1680,15 +1688,23 @@ div > [href="/store"], div > [href="/shop"]/* Nitro Button above DM List */ {
         30% 3%
     );
 }
+.panels__58331 div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a):not(:empty) ~ div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a):not(:empty)::before{
+    display: none;
+}
 
-.theme-light .panels__58331 > div:nth-child(2):has(div):before,
-.theme-light .panels__58331 > .panel_bd8c76.activityPanel__22355:before {
+
+
+.theme-light .panels__58331 div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a):not(:empty)::before {
+
     background: var(--bg-overlay-2, var(--background-secondary));
 }
-.theme-dark .panels__58331 > div:nth-child(2):has(div):before,
-.theme-dark .panels__58331 > .panel_bd8c76.activityPanel__22355:before {
+.theme-dark .panels__58331 div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a):not(:empty)::before {
+
     background: var(--bg-overlay-3, var(--background-secondary));
 }
+
+
+
 
 @media only screen and (max-width: 638px) {
     .theme-dark .scroller_f0f183 {
@@ -1704,8 +1720,7 @@ div > [href="/store"], div > [href="/shop"]/* Nitro Button above DM List */ {
         ) !important;
     }
 
-    .panels__58331 > div:nth-child(2):has(div):before,
-    .panels__58331 > .panel_bd8c76.activityPanel__22355:before {
+    .panels__58331 div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a):not(:empty)::before {
         background: var(
             --bg-overlay-chat,
             var(--background-primary)
@@ -1714,43 +1729,23 @@ div > [href="/store"], div > [href="/shop"]/* Nitro Button above DM List */ {
 
     .theme-light
         .privateChannels__93473
-        ~ .panels__58331
-        > div:nth-child(2):has(div):before,
-    .theme-light
-        .privateChannels__93473
-        ~ .panels__58331
-        > .panel_bd8c76.activityPanel__22355:before {
+        ~ .panels__58331 div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a):not(:empty)::before {
         background: var(--bg-overlay-2, var(--background-secondary)) !important;
     }
     .theme-dark
         .privateChannels__93473
-        ~ .panels__58331
-        > div:nth-child(2):has(div):before,
-    .theme-dark
-        .privateChannels__93473
-        ~ .panels__58331
-        > .panel_bd8c76.activityPanel__22355:before {
+        ~ .panels__58331 div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a):not(:empty)::before {
         background: var(--bg-overlay-3, var(--background-secondary)) !important;
     }
 
     .theme-light
         .sidebar_ded4b5:hover
-        .panels__58331
-        > div:nth-child(2):has(div):before,
-    .theme-light
-        .sidebar_ded4b5:hover
-        .panels__58331
-        > .panel_bd8c76.activityPanel__22355:before {
+        .panels__58331 div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a):not(:empty)::before {
         background: var(--bg-overlay-2, var(--background-secondary)) !important;
     }
     .theme-dark
         .sidebar_ded4b5:hover
-        .panels__58331
-        > div:nth-child(2):has(div):before,
-    .theme-dark
-        .sidebar_ded4b5:hover
-        .panels__58331
-        > .panel_bd8c76.activityPanel__22355:before {
+        .panels__58331 div:is(.container_d667ff, .container_6sXIoE, .panel_bd8c76, #vc-spotify-player, .wrapper__0ed4a):not(:empty)::before {
         background: var(--bg-overlay-3, var(--background-secondary)) !important;
     }
 }
