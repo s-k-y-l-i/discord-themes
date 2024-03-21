@@ -1,6 +1,22 @@
+.box_dd6d91 {
+	background: var(--bg-overlay-3, var(--background-secondary));
+}
+.box_dd6d91:after {
+	background: var(--bg-overlay-3, var(--background-secondary));
+	border: none;
+	height: 10px;
+	width: 20px;
+	position: absolute;
+	clip-path: polygon(0 0, 50% 100%, 100% 0);
+}
+
+.key__06fe6 {
+	background: var(--bg-overlay-6, var(--background-accent));
+}
+
 .headerChildren__7cd0b {
 	display: none !important;
-} /* I want to remove this from here, but needs fixing for long server names */
+} /* I want to remove this fro here, but needs fixing for long server names */
 
 .theme-dark .container_b181b6 {
 	background: var(--bg-overlay-home, var(--home-background));
@@ -285,10 +301,18 @@ h3.defaultColor__37d78.text-sm-normal_e612c7.defaultColor__87d87 {
 	background-color: transparent !important;
 }
 
-.topPill__0cdf1 .themed_b957e8.selected__5711d.item__48dda,
-.side_b4b3f6 .themed_b957e8.selected__5711d.item__48dda {
-	background: var(--bg-overlay-5, var(--background-modifier-selected));
+.connectContainer__8050b,
+.connectionHeader__3c82d {
+	background: var(--bg-overlay-3, var(--background-secondary-alt));
 }
+
+.connection_fff5f6 {
+	background: var(--bg-overlay-2, var(--background-secondary));
+}
+.sessionIcon__540be {
+	background: var(--bg-overlay-6, var(--interactive-normal));
+}
+
 .friendRequestsButton_f19806,
 .secondary_c96c46 {
 	background: var(--bg-overlay-3, var(--background-secondary));
@@ -1521,13 +1545,52 @@ background: var(--bg-overlay-4,var(--background-tertiary))!important;
 }
 
 :root {
+	--brand-360: color-mix(in hsl, var(--accent) 60%, white 40%);
 	--brand-500: var(--accent);
+	--brand-560: color-mix(in hsl, var(--accent) 90%, black 10%);
+	--brand-600: color-mix(in hsl, var(--accent) 80%, black 20%);
 }
 
-html {
-	--brand-experiment: var(--accent);
-	--brand-experiment-560: var(--accent);
-	--brand-experiment-500: var(--accent);
+.vc-addon-card {
+	background: var(--bg-overlay-4, var(--background-secondary-alt));
+}
+
+.input_d266e7 {
+	background: var(--bg-overlay-3, var(--input-background));
+}
+
+.itemFilled__373d7 {
+	background: var(--bg-overlay-3, var(--background-secondary));
+}
+
+.itemFilled__373d7[aria-checked="true"] {
+	background: var(--bg-overlay-selected, var(--background-modifier-selected));
+}
+.itemFilled__373d7:hover:not([aria-checked="true"]):not(.disabled_af801d) {
+	background: var(--bg-overlay-5, var(--background-modifier-hover));
+}
+
+.option_be8b2e:focus,
+.option_be8b2e:hover,
+.option_be8b2e.focused_a2f507 {
+	background: var(--bg-overlay-5, var(--background-modifier-hover));
+}
+.itemFilled__373d7:active:not([aria-checked="true"]):not(.disabled_af801d) {
+	background: var(--bg-overlay-4, var(--background-modifier-active));
+}
+
+.topPill__0cdf1 .themed_b957e8.selected__5711d.item__48dda,
+.side_b4b3f6 .themed_b957e8.selected__5711d.item__48dda {
+	background: var(--bg-overlay-selected, var(--background-modifier-selected));
+}
+
+.topPill__0cdf1 .themed_b957e8.item__48dda:hover:not(.disabled__85bca),
+.side_b4b3f6 .themed_b957e8.item__48dda:hover:not(.disabled__85bca) {
+	background: var(--bg-overlay-5, var(--background-modifier-hover));
+}
+.topPill__0cdf1 .themed_b957e8.item__48dda:active:not(.disabled__85bca),
+.side_b4b3f6 .themed_b957e8.item__48dda:active:not(.disabled__85bca) {
+	background: var(--bg-overlay-4, var(--background-modifier-active));
 }
 
 .linkTop_eaa673 .iconContainer__3f9b0 .icon_eff5d4 {
