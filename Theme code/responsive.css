@@ -1,3 +1,4 @@
+
 .box_dd6d91 {
     background: var(--bg-overlay-3, var(--background-secondary));}
 .box_dd6d91:after {
@@ -799,7 +800,7 @@ code {
     background: var(--bg-overlay-4, var(--background-primary));
 }
 
-.root_a28985 {
+.root_a28985, .scrollTierBackground__36806 {
     background: var(--bg-overlay-chat, var(--background-primary));
 }
 
@@ -811,8 +812,27 @@ code {
     background: transparent;
 }
 
+.modalHeader_e68db4 {
+    background: var(--bg-overlay-chat, var(--background-primary));
+}
+.activityItem__33da9{
+    background: var(--bg-overlay-2, var(--background-secondary));   
+}
+
+.picker__6dca7 {
+    background: var(--bg-overlay-2, var(--background-floating));
+
+}
+.activityTag__01970{
+    background: var(--bg-overlay-4, var(--background-tertiary));   
+   
+}
 .container_def45c.floating_f021e2 {
     background: var(--bg-overlay-2, var(--background-secondary));
+}
+
+.soundButton__5ad7b,.activityItem__33da9:hover {
+    background: var(--bg-overlay-3, var(--background-secondary));
 }
 
 .sectionDivider__68d2a,
@@ -2002,6 +2022,7 @@ div > [href="/store"], div > [href="/shop"]/* Nitro Button above DM List */ {
         background: var(--bg-overlay-3, var(--background-secondary)) !important;
     }
 }
+
 
 
 .search_ac353c:not(.open_d3ab4e) .iconLayout__9fbb1 {
