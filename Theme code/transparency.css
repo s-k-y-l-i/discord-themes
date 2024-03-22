@@ -34,7 +34,7 @@ body::before {
     background: transparent;
 }
 
-.container_def45c {
+.container_def45c:not(.floating_f021e2) {
     background: transparent;
 }
 
