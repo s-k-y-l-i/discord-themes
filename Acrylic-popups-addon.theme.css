@@ -4,19 +4,20 @@
 }
 
 /*Userprofile backgrounds hiding*/
-.input_d266e7, 
+.input_d266e7, .popoutNoBannerPremium_edf6d3,
 .userProfileOuterThemed__6eb84, 
 .userProfileOuterUnthemed__48723, 
 .userProfileInnerThemedWithBanner_d5f991,
+.userProfileInnerThemedPremiumWithoutBanner__703b1,
 .userProfileInnerThemedNonPremium__3d0a6,
 .overlayBackground__86b78 {
-    background: transparent!important;
+    background: none!important;
 }
 .userProfileInnerThemedNonPremium__3d0a6 .popoutBanner__9f5b9{
     opacity: 0;
 }
 /*frame*/
-.userProfileInnerThemedWithBanner_d5f991:after {
+.userProfileInnerThemedWithBanner_d5f991:after,.userProfileInnerThemedPremiumWithoutBanner__703b1::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -35,15 +36,17 @@
 }
 
 /*remove background*/
-.wrapper__7a35f, .footer__89240, .wrapper_c727b6 ,.container_e4c233,.container__7712a, .messageContainer_aa7d14,.channelHeader__5d30c,.messageGroupWrapper_f8c6e9,.messagesPopoutWrap_b3b384, .header_f5cc88, .container_d6dad3,.quickswitcher_a3d29a, .input__848cd, .scroller__52ae7, .menu_dc52c6, #popout_4842, .contentWrapper__321ed,  .wrapper_cd625e,
+.userProfileInner__8065b:before, .wrapper__7a35f, .profileBadges__7a7cb, .footer__89240, .wrapper_c727b6 ,.container_e4c233,.container__7712a, .messageContainer_aa7d14,.channelHeader__5d30c,.messageGroupWrapper_f8c6e9,.messagesPopoutWrap_b3b384, .header_f5cc88, .container_d6dad3,.quickswitcher_a3d29a, .input__848cd, .scroller__52ae7, .menu_dc52c6, #popout_4842, .contentWrapper__321ed,  .wrapper_cd625e,
 .scroller__750f5, .container__d6dad3, .resultsGroup_ea9b64,
 .contentWrapper__321ed, .emojiPicker_b65ce9, .inspector__993e1, .header__55964, .modal__082b3 
 {
-    background: transparent!important;
+    background: none!important;
 }
 
 /*blur*/
-#user-profile-actions, .wrapper_c727b6 ,.messagesPopoutWrap_b3b384,.contentWrapper__321ed, .quickswitcher_a3d29a,.userPopoutOuter_d739b2   {
+#user-profile-actions, .wrapper_c727b6 ,
+.messagesPopoutWrap_b3b384,.contentWrapper__321ed, 
+.quickswitcher_a3d29a   {
     background: transparent!important;
     backdrop-filter: blur(var(--blur));
     
@@ -67,9 +70,10 @@
 }
 
 /*blur before*/
-.modal__082b3::before,
+.userProfileOuterUnthemed__48723::after,.userProfileInner__8065b:before, 
+.modal__082b3::before,.popoutContainer__3d17d>div::before,
 .menu_dc52c6.flexible__7055b:first-child::before,
-.container_d6dad3::before,.layer_ec16dd:not(#popout_21):has(.menu_dc52c6):first-child::before,
+.container_d6dad3::before,.layer_ec16dd:not(#popout_21, #popout_19):has(.menu_dc52c6):first-child::before,
 .submenuPaddingContainer__12a9d::before {
     content: "";
     backdrop-filter: blur(var(--blur));
@@ -129,8 +133,8 @@
 /*premium profile color*/
 .userProfileOuterThemed__6eb84::before {
     background: linear-gradient(
-        color-mix(in hsl, var(--profile-gradient-primary-color) 70%, transparent),
-        color-mix(in hsl, var(--profile-gradient-secondary-color) 70%, transparent)
+        color-mix(in hsl, var(--profile-gradient-primary-color) calc(100% * var(--opacity)), transparent),
+        color-mix(in hsl, var(--profile-gradient-secondary-color) calc(100% * var(--opacity)), transparent)
     );
 }
 
