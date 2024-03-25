@@ -73,7 +73,7 @@
 .userProfileOuterUnthemed__48723::after,.userProfileInner__8065b:before, 
 .modal__082b3::before,.popoutContainer__3d17d>div::before,
 .menu_dc52c6.flexible__7055b:first-child::before,
-.container_d6dad3::before,.layer_ec16dd:not(#popout_21, #popout_19):has(.menu_dc52c6):first-child::before,
+.menu_dc52c6:not(#guild-context).flexible__7055b:first-child::after,
 .submenuPaddingContainer__12a9d::before {
     content: "";
     backdrop-filter: blur(var(--blur));
