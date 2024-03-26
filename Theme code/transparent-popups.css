@@ -32,7 +32,7 @@
 }
 
 /*remove background*/
-.container_aab957, .popout__24e32, .footer_a3029c, .option_b5597b::after, 
+.container_dbdb0b,.container_aab957, .popout__24e32, .footer_a3029c, .option_b5597b::after, 
 .focused_f9cf2c, .badgeList_c193e3, .root_a28985, 
 :not(aside)>div>.userProfileInner__8065b:before, .wrapper__7a35f, 
 .profileBadges__7a7cb, .footer__89240, .wrapper_c727b6,
@@ -50,7 +50,7 @@
 }
 
 /*blur*/
- .popout__24e32, #user-profile-actions, .wrapper_c727b6 ,
+#sort-and-view, .container_ae7412, .popout__24e32, #user-profile-actions, .wrapper_c727b6 ,
 .messagesPopoutWrap_b3b384,.contentWrapper__321ed, 
 .quickswitcher_a3d29a,.picker__6dca7   {
     background: transparent!important;
@@ -64,9 +64,10 @@
 :not(aside)>.userProfileOuterUnthemed__48723::after,
 :not(aside)>div>.userProfileInner__8065b:before, 
 .modal__082b3::before,
-.menu_dc52c6.flexible__7055b:first-child::before,
-.menu_dc52c6:not(#guild-context).flexible__7055b:first-child::after,
-.submenuPaddingContainer__12a9d::before, :not(.contentWrapper__321ed)>#emoji-picker-tab-panel::before {
+.menu_dc52c6:not(#sort-and-view).flexible__7055b:first-child::before,
+.menu_dc52c6:not(#guild-context):not(#sort-and-view).flexible__7055b:first-child::after,
+.submenuPaddingContainer__12a9d::before, 
+:not(.contentWrapper__321ed)>#emoji-picker-tab-panel::before {
     content: "";
     backdrop-filter: blur(var(--blur));
     top: 0;
@@ -80,11 +81,11 @@
 }
 
 /*color and transparency before or after*/
-.root_a28985::after,.form_a88d78::after, #guild-header-popout::after,
+#sort-and-view::after, .container_ae7412::before, .root_a28985::after,.form_a88d78::after, #guild-header-popout::after,
 .messagesPopoutWrap_b3b384::before, .container_d6dad3::after,
 :not(aside)>.userProfileOuterThemed__6eb84::before,
 :not(aside)>.userProfileOuterUnthemed__48723::before,
-.menu_dc52c6:not(#guild-context).flexible__7055b:first-child::before, 
+.menu_dc52c6:not(#guild-context):not(#sort-and-view).flexible__7055b:first-child::before, 
 .submenu_acf564.menu_dc52c6::before,
 .contentWrapper__321ed::before, .quickswitcher_a3d29a::before,
 :not(.contentWrapper__321ed)>#emoji-picker-tab-panel::after {
@@ -245,7 +246,7 @@
     backdrop-filter: blur(var(--blur));
 }
 
-.emojiPicker_b65ce9 {
+.emojiPicker_b65ce9, .container_dbdb0b {
     box-shadow: none;
 }
 .animatorLeft_b2289c ::before {
