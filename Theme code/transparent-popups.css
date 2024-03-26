@@ -1,3 +1,12 @@
+:root{
+    --accent: var(--os-accent-color); 
+    /* Accent color insted of the Purple discord accent */ 
+
+    --blur: 20px; /*Popup blur size*/
+    --opacity: 0.5; /*Popup background opacity*/  
+    --radius: 8px; /*Popup border radius*/
+}
+
 /*Userprofile backgrounds hiding*/
 .input_d266e7, .popoutNoBannerPremium_edf6d3,
 :not(aside)>.userProfileOuterThemed__6eb84, 
@@ -66,7 +75,7 @@
 .modal__082b3::before,
 .menu_dc52c6.flexible__7055b:first-child::before,
 .menu_dc52c6:not(#guild-context).flexible__7055b:first-child::after,
-.submenuPaddingContainer__12a9d::before, #emoji-picker-tab-panel::before {
+.submenuPaddingContainer__12a9d::before, :not(.contentWrapper__321ed)>#emoji-picker-tab-panel::before {
     content: "";
     backdrop-filter: blur(var(--blur));
     top: 0;
@@ -87,7 +96,7 @@
 .menu_dc52c6:not(#guild-context).flexible__7055b:first-child::before, 
 .submenu_acf564.menu_dc52c6::before,
 .contentWrapper__321ed::before, .quickswitcher_a3d29a::before,
-#emoji-picker-tab-panel::after {
+:not(.contentWrapper__321ed)>#emoji-picker-tab-panel::after {
     content: "";
     top: 0;
     left: 0;
@@ -252,7 +261,11 @@
     box-shadow: var(--elevation-stroke),var(--elevation-high);
 }
 
-.unicodeShortcut__1dd6b {
-    backdrop-filter: blur(var(--blur));
+.theme-light .unicodeShortcut__1dd6b {
+    backdrop-filter: blur(8px) contrast(0.5) brightness(1.3);
+    background: none;
+}
+.theme-dark .unicodeShortcut__1dd6b {
+    backdrop-filter: blur(8px) brightness(0.8);
     background: none;
 }
