@@ -1,12 +1,3 @@
-:root{
-    --accent: var(--os-accent-color); 
-    /* Accent color insted of the Purple discord accent */ 
-
-    --blur: 20px; /*Popup blur size*/
-    --opacity: 0.5; /*Popup background opacity*/  
-    --radius: 8px; /*Popup border radius*/
-}
-
 /*Userprofile backgrounds hiding*/
 .input_d266e7, .popoutNoBannerPremium_edf6d3,
 :not(aside)>.userProfileOuterThemed__6eb84, 
