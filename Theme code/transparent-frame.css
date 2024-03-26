@@ -1,0 +1,26 @@
+/* MICA */
+body, #app-mount,
+.typeWindows__5fa63,
+.app_de4237,.bg__12180,
+.guilds__2b93a,.scroller__3d071 {
+        background: transparent !important;
+}
+
+/* Darker transparency background*/
+
+body {
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-overlay-app-frame,var(--background-tertiary));
+    opacity: var(--var-opacity-option); 
+    z-index: -1; 
+    filter: saturate(var(--var-color-saturation)) contrast(var(--var-contrast));
+}
