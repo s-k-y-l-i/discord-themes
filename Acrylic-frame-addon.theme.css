@@ -1,40 +1,22 @@
+/**
+ * @name Acrylic Frame
+ * @author skyli
+ * @description Transparent acrylic window frame including guilds with customizable opacity, saturation and contrast.
+ * @version 1.0
+ * @donate https://www.buymeacoffee.com/skyli
+ * @source https://github.com/s-k-y-l-i/discord-themes
+ */
+
+@import url('https://s-k-y-l-i.github.io/discord-themes/Theme%20code/transparent-frame.css');
+
 :root{
     --var-opacity-option: 0.8;    /*   Acrylic opacity from 0 to 1    */
-    --var-color-saturation: 1; /* 0 to 999 where 1 is the default  */
-    --var-contrast: 1.07;          /*     Increase for darker blacks   */
+    --var-color-saturation: 1;   /* 0 to 99 (default is 1)  */
+    --var-contrast: 1.07;        /*     Increase for darker blacks   */
 
     /* 
     You can try: 
     0.1 opacity with 99 saturation
     0.4 opacity with 2.8 saturation
     0.6 opacity with 1.8 saturation            */
-}
-
-
-
-/* MICA */
-body, #app-mount,
-.typeWindows__5fa63,
-.app_de4237,.bg__12180,
-.guilds__2b93a,.scroller__3d071 {
-        background: transparent !important;
-}
-
-/* Darker transparency background*/
-
-body {
-    position: relative;
-}
-
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: var(--bg-overlay-app-frame,var(--background-tertiary));
-    opacity: var(--var-opacity-option); /* Átlátszóság beállítása (0-től 1-ig terjedő értékek) */
-    z-index: -1; /* Az átlátszó háttér mögé helyezése */
-    filter: saturate(var(--var-color-saturation)) contrast(var(--var-contrast));
 }
