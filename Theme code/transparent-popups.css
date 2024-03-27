@@ -69,10 +69,12 @@
 :not(aside):not(.customizationSection__16fec)>.userProfileOuterUnthemed__48723::after,
 :not(aside):not(.customizationSection__16fec)>div>.userProfileInner__8065b:before, 
 .modal__082b3::before,
-.menu_dc52c6:not(#sort-and-view).flexible__7055b:first-child::before,
-.menu_dc52c6:not(#guild-context):not(#sort-and-view).flexible__7055b:first-child::after,
 .submenuPaddingContainer__12a9d::before, 
-:not(.contentWrapper__321ed)>#emoji-picker-tab-panel::before,.container__03857::before{
+:not(.contentWrapper__321ed)>#emoji-picker-tab-panel::before,.container__03857::before,
+#message::after, #guild-context::before, #channel-attach::after, #thread-context::after,
+#image-context::after, #expression-picker::after, #channel-context::after,
+#user-settings-cog::after, #audio-device-context::after, #user-context::after,
+#message-actions::after {
     content: "";
     backdrop-filter: blur(var(--blur));
     top: 0;
@@ -329,7 +331,7 @@
     }
 }
 
-div#image-context {
+#image-context, #expression-picker {
     position: absolute;
 }
 
