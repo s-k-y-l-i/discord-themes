@@ -344,6 +344,5 @@
 }
 .rootWithShadow__073a7:not(:has(> .quickswitcher_a3d29a)),
 .quickswitcher_a3d29a {
-    box-shadow: 0px 0px 1000px rgba(0, 0, 0, 1),
-    0px 0px 1000px rgba(0, 0, 0, 1)!important;
+    box-shadow: 0px 0px 1000px rgba(0, 0, 0, 1)!important;
 }
