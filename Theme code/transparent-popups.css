@@ -46,7 +46,7 @@
 .scroller__750f5, .container__d6dad3, .resultsGroup_ea9b64,
 .contentWrapper__321ed, .emojiPicker_b65ce9, .inspector__993e1, 
 .header__55964, .modal__082b3, .rolePill_ee1aa1,  .previewContainer_bb1924,
-.container__20de0,.container__2c498 
+.container__20de0,.container__2c498, .footer_ceda43, .reactors__20ab0, .scroller__5fda0 
 {
     background: none!important;
 }
@@ -59,7 +59,9 @@
 .autocomplete_df266d, .streamPreview__1846c  ,.container__03857,
 .container__20de0, .container__23c08, .form_a88d78 ,
 .focusLock__10aa5>.modal__6a96b,
-.popout__08442, [aria-labelledby]>.root_a28985      {
+.popout__08442, [aria-labelledby]>.root_a28985 ,
+.uploadModal_eae2a0, .rootWithShadow__073a7:has(>.reactorsContainer__7e0e9),
+.root_a28985:has(>[id]) {
     background: transparent!important;
     backdrop-filter: blur(var(--blur));
     
@@ -76,7 +78,7 @@
 #message::after, #guild-context::before, #channel-attach::after, #thread-context::after,
 #image-context::after, #expression-picker::after, #channel-context::after,
 #user-settings-cog::after, #audio-device-context::after, #user-context::after,
-#message-actions::after {
+#message-actions::after, #textarea-context::after {
     content: "";
     backdrop-filter: blur(var(--blur));
     top: 0;
@@ -102,7 +104,8 @@
 .layer_ec16dd:has(.container__03857)::before,
 .container__20de0::before, .container__23c08::before,
 .focusLock__10aa5>.modal__6a96b::after,
-.popout__08442::after, [aria-labelledby]>.root_a28985::after   {
+.popout__08442::after, [aria-labelledby]>.root_a28985::after,
+.uploadModal_eae2a0::after, .rootWithShadow__073a7:has(>.reactorsContainer__7e0e9)::after   {
     content: "";
     top: 0;
     left: 0;
