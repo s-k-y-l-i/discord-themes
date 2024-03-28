@@ -11,7 +11,8 @@
 
 /* Config */
 :root{
-    --blur: 20px;   /*Popup blur size*/
-    --opacity: 0.5; /*Popup background opacity*/  
-    --radius: 8px;  /*Popup border radius*/
+    --blur: 40px; /*Popup blur size*/
+    --opacity: 0.3; /*Popup background opacity*/  
+    --radius: 8px; /*Popup border radius*/
+    --pop-up-color: ; /*To force a color, empty by default*/
 }
