@@ -48,7 +48,7 @@
 .header__55964, .modal__082b3, .rolePill_ee1aa1,  .previewContainer_bb1924,
 .container__20de0,.container__2c498, .footer_ceda43, 
 .reactors__20ab0, .scroller__5fda0,
-.root_a28985, .list__4e6aa  
+.root_a28985, .list__4e6aa, .header__53b07, .container__6604b  
 {
     background: none!important;
 }
@@ -64,7 +64,7 @@
 .popout__08442, [aria-labelledby]>.root_a28985 ,
 .uploadModal_eae2a0, .rootWithShadow__073a7:has(>.reactorsContainer__7e0e9),
 .root_a28985:has(>[id]), .root_a28985:has(>.transitionGroup__9763d),
-#manage-multi-account {
+#manage-multi-account, .container__8261a {
     background: transparent!important;
     backdrop-filter: blur(var(--blur));
     
@@ -81,7 +81,7 @@
 #message::after, #guild-context::before, #channel-attach::after, #thread-context::after,
 #image-context::after, #expression-picker::after, #channel-context::after,
 #user-settings-cog::after, #audio-device-context::after, #user-context::after,
-#message-actions::after, #textarea-context::after {
+#message-actions::after, #textarea-context::after, #vc-toolbox::after {
     content: "";
     backdrop-filter: blur(var(--blur));
     top: 0;
@@ -111,7 +111,8 @@
 .uploadModal_eae2a0::after, 
 .rootWithShadow__073a7:has(>.reactorsContainer__7e0e9)::after,
 .root_a28985:has(>[id])::after, 
-.root_a28985:has(>.transitionGroup__9763d)::after   {
+.root_a28985:has(>.transitionGroup__9763d)::after, 
+.container__8261a::after {
     content: "";
     top: 0;
     left: 0;
