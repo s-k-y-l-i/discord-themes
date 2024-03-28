@@ -64,7 +64,7 @@
 .popout__08442, [aria-labelledby]>.root_a28985 ,
 .uploadModal_eae2a0, .rootWithShadow__073a7:has(>.reactorsContainer__7e0e9),
 .root_a28985:has(>[id]), .root_a28985:has(>.transitionGroup__9763d),
-#manage-multi-account, .container__8261a {
+#manage-multi-account, .container__8261a, [class^="toast_"] {
     background: transparent!important;
     backdrop-filter: blur(var(--blur));
     
@@ -123,6 +123,19 @@
     opacity: var(--opacity);
     z-index: -1;
     border-radius: var(--radius);
+}
+
+[class^="toast_"]::after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-overlay-app-frame, var(--background-tertiary));
+    opacity: var(--opacity);
+    z-index: -1;
+    border-radius: inherit;
 }
 .modal__082b3::after, .popout__24e32::after, .picker__6dca7::before {
     content: "";
