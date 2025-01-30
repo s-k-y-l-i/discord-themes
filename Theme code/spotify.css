@@ -50,7 +50,7 @@
     margin-left: 15px;
 }
 
-#vc-spotify-player #vc-spotify-titles .size14_b2af01 {
+#vc-spotify-player #vc-spotify-titles .size14_fb468f {
     font-size: 13px;
 }
 .theme-dark #vc-spotify-song-title::before,
@@ -63,10 +63,10 @@
 .theme-light #vc-spotify-song-title + div + div::before {
     background-color: rgba(0, 0, 0, 0.7)!important;
 }
-.theme-light #vc-spotify-player .colorStandard__3d599 {
+.theme-light #vc-spotify-player .colorStandard_fbc755 {
     color: rgba(0, 0, 0, 0.8);
 }
-.theme-dark #vc-spotify-player .colorStandard__3d599 {
+.theme-dark #vc-spotify-player .colorStandard_fbc755 {
     color: rgba(255, 255, 255, 0.8);
 }
 
@@ -77,7 +77,7 @@
     color: rgba(0, 0, 0, 0.8);
 }
 
-#vc-spotify-player .barFill__1f56b {
+#vc-spotify-player .barFill_c7a159 {
     background-color: var(--interactive-active);
 }
 #vc-spotify-progress-bar > [class^="slider"] [class^="grabber"] {
